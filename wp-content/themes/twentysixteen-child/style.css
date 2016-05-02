@@ -14,4 +14,33 @@
 
 body {
     background-color: #7a1501;
+    text-align: center;
+}
+
+h1{
+    display: none;
+}
+h2 img{
+    width: 800px;
+}
+
+.site-header-main{
+    text-transform: capitalize;
+    
+  
+}
+.menu-navigation li:hover a{
+     
+     text-align: center;
+}
+li{
+    color: #7a1501;
+}
+li:hover{
+    background-color: #f9da0c;
+   
+}
+a{
+   color: #7a1501;  
+    
 }

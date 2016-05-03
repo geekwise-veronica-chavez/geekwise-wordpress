@@ -14,7 +14,7 @@
 
 body {
     background-color: #7a1501;
-    text-align: center;
+    
 }
 
 h1{
@@ -26,12 +26,13 @@ h2 img{
 
 .site-header-main{
     text-transform: capitalize;
+    margin:auto;
     
   
 }
 .menu-navigation li:hover a{
      
-     text-align: center;
+    
 }
 li{
     color: #7a1501;
@@ -43,4 +44,9 @@ li:hover{
 a{
    color: #7a1501;  
     
+}
+.full_width{
+    background-color: #f9da0c;
+    color:#7a1501;
+    text-align: center;
 }

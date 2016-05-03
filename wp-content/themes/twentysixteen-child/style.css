@@ -27,11 +27,11 @@ h2 img{
 .site-header-main{
     text-transform: capitalize;
     margin:auto;
-    
+     text-align: center;
   
 }
 .menu-navigation li:hover a{
-     
+    
     
 }
 li{
@@ -45,8 +45,36 @@ a{
    color: #7a1501;  
     
 }
+.linkhome{
+    color:#fff;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+.smallgk{
+    position:relative;
+    top: -150px;
+}
 .bottom{
     background-color: #f9da0c;
     color:#7a1501;
     text-align: center;
 }
+
+
+/*contact page css*/
+.address{
+  
+}
+.contactmd{
+   width: 20%;
+   background-color: #fff;
+   color: black;
+   text-align: center;
+     position: relative;
+    top: -350px;
+    left: 350px;
+}
+ .terry:hover{
+     color: black;
+     font-size: 10px;
+ }

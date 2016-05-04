@@ -23,6 +23,17 @@ h1{
 h2 img{
     width: 800px;
 }
+#masthead{
+    width: 100%;
+    text-align: center;
+}
+.site-header{
+    padding: 0;
+   
+}
+#site-header-main{
+    text-align: center;
+}
 
 .site-header-main{
     text-transform: capitalize;
@@ -45,6 +56,11 @@ a{
    color: #7a1501;  
     
 }
+.site-branding{
+    display: none;
+    margin:0;
+}
+
 .linkhome{
     color:#fff;
     text-transform: uppercase;

@@ -34,7 +34,7 @@ h2 img{
 }
 
 .site-header-main{
-    text-transform: capitalize;
+    text-transform: uppercase;
     margin:auto;
      text-align: center;
      background-color: #fff;
@@ -48,10 +48,13 @@ h2 img{
     
 }
 li{
-    font-size: 13.5px;
+    font-size: 13px;
     color: #7a1501;
     font-family: sans-serif;
     font-weight: 600;
+    position: relative;
+    top: -30px;
+    letter-spacing: -1px;
    
 }
 li:hover{
@@ -96,6 +99,9 @@ a{
     color:#fff;
     text-transform: uppercase;
     text-decoration: none;
+    font-size: 12px;
+    margin: 0;
+    
 }
 .smallgk{
 }
@@ -105,7 +111,28 @@ a{
     text-align: center;
 }
 
-
+/*about page css*/
+.about-title{
+    color: #fff;
+}
+.about-content{
+    color: #fff;
+}
+/*course page  css*/
+.course-top{
+    background-color: #fff;
+    padding:50px;
+}
+.table{
+    background-color: #fff;
+    font-size: 12px;
+}
+.enroll{
+    background-color: #f9da0c;
+    padding:10px;
+    text-align: center;
+    text-decoration: none;
+}
 /*contact page css*/
 .address{
   

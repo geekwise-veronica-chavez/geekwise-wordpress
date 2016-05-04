@@ -23,12 +23,10 @@ h1{
 h2 img{
     width: 800px;
 }
-#masthead{
-    width: 100%;
-    text-align: center;
-}
+
 .site-header{
     padding: 0;
+    background-color: #fff;
    
 }
 #site-header-main{
@@ -39,18 +37,48 @@ h2 img{
     text-transform: capitalize;
     margin:auto;
      text-align: center;
-  
+     background-color: #fff;
+     color: black;
+     margin-left: 32%;
+      
 }
-.menu-navigation li:hover a{
+.menu-navigation{
+    
     
     
 }
 li{
+    font-size: 13.5px;
     color: #7a1501;
+    font-family: sans-serif;
+    font-weight: 600;
+   
 }
 li:hover{
     background-color: #f9da0c;
    
+}
+.menu-item-24{
+    background-color: #f9da0c;
+}
+
+/*body text on homepage*/
+
+.entry-content{
+    margin:0;
+   
+}
+
+.img-bg{
+    background-color: #fff;
+}
+.home-text{
+    color: #fff;
+}
+.line{
+    background-color: #fff;
+    width: 85%;
+   margin:auto;
 }
 a{
    color: #7a1501;  
@@ -60,15 +88,16 @@ a{
     display: none;
     margin:0;
 }
-
+.owl_width{
+    width:100%;
+    background-color:#fff;
+}
 .linkhome{
     color:#fff;
     text-transform: uppercase;
     text-decoration: none;
 }
 .smallgk{
-    position:relative;
-    top: -150px;
 }
 .bottom{
     background-color: #f9da0c;

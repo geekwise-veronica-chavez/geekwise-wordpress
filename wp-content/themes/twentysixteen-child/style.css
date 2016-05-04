@@ -84,7 +84,9 @@ li:hover{
    margin:auto;
 }
 a{
-   color: #7a1501;  
+   color: #7a1501; 
+  
+   
     
 }
 .site-branding{
@@ -103,6 +105,12 @@ a{
     margin: 0;
     
 }
+
+.content-column:nth-of-type(even){
+   border-right:solid 1px #fff;
+   border-left: solid 1px #fff;
+}
+
 .smallgk{
 }
 .bottom{

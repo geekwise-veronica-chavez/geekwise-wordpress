@@ -1,0 +1,397 @@
+html, body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 12px;
+    
+}
+body{
+    
+    width: 100%;
+    height: 100%;
+    background-color: #7a1501;
+}
+header{
+    width: 100%;
+    background-color: #fff;
+}
+.about_header{
+    width: 70%;
+    height:100px;
+    margin: 0 auto;
+    padding: 0;
+    background-color: #fff;
+}
+#geekwise_small{
+    width: 15%;
+    float: left;
+    padding-top: 20px;
+    padding-left: 30px;
+    
+}
+.nav_about{
+    width: 80%;
+    float: left;
+    padding: 0;
+    margin: 0;
+    
+}
+.flexbox{
+    width: 100%;
+    margin: 0;
+    text-align: center;
+    
+}
+.flex-li{
+    display: inline-flex;
+    width: 13%;
+    -webkit-flex:center;
+    justify-content:center;
+    font-size: 16px;
+    text-transform: uppercase;
+    padding-top: 20px;
+    padding-right: 5px;
+    font-weight: bold;
+    font-family: "lato", sans-serif;
+    
+}
+.main{
+    text-decoration: none;
+    color: black;
+    padding: 5px;
+}
+.main:hover{
+    color:#7a1501;
+}
+.yellow{
+    color:#7a1501;
+}
+.sign-tag{
+    list-style: none;
+}
+.highlight{
+    padding: 18px 12px 18px 12px;
+    background-color: #f9da0c;
+    font-family: "lato", sans-serif;
+    color: #7a1501;
+    font-size: 1.1em;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-left: 30px;
+}
+.img_owl{
+    width: 100%;
+    background-color: #fff;
+    margin: auto;
+    height: 150px;
+}
+.img{
+    float: left;
+    margin-left: 15rem;
+    
+  
+}
+.about_quote{
+    font-size: 3.2em;
+    text-transform: uppercase;
+    margin: 0;
+    padding: 0;
+    text-align: right;
+    width: 45%;
+    float: left;
+    margin-top: 3rem;
+    font-family: 'franchise',sans-serif;
+    font-weight: bold;
+    line-height: 1.5;
+    
+
+}
+main{
+    width: 100%;
+    background-color: #7a1501;
+    height: auto;
+}
+
+.section_about{
+    width: 80%;
+    margin: auto;
+    clear: both;
+    background-color: #7a1501;
+   
+}
+#about{
+    width: 36%;
+    float: left;
+    color: #fff;
+    font-size: 14px;
+    padding-left: 35px;
+    line-height: 2;
+    margin-left: 25px;
+    font-family:"lato",sans-serif;
+
+}
+.about_what{
+   margin-top: 25px; 
+}
+.length{
+    width: 100%;
+}
+
+h1{
+    text-transform: uppercase;
+    font-family:"franchise";
+    font-size: 20px;
+}
+.want_to{
+    width:100%;
+    height: 30px;
+    text-transform: uppercase;
+    background-color: #f9da0c;
+    margin:0 auto;
+   padding-top: 15px;
+    text-align: center;
+    float: left;
+
+    
+}
+
+#want_to{
+    color:#7a1501;
+    font-size: 15px;
+    text-decoration: none;
+    
+}
+#dropdown{
+    display: none;
+}
+label{
+    display: none;
+}
+
+ .navagation_list{
+        padding-top: 30px;
+        display:block;
+        margin-left: 20px;
+    }
+
+@media only screen and (max-width:1200px){
+    header{
+        height: auto;
+        width: 100%;
+    }
+    .about_header{
+        height: auto;
+        width: 80%;
+    }
+    .nav_about{
+        height: auto;
+        width: 80%;
+    }
+    
+    .img_owl{
+        width: 100%;
+        height: 235px;
+    }
+    .img{
+        margin: 0;
+        position: relative;
+        right:150px;
+        top: 35px;
+    
+    }
+    .about_quote{
+        width:35%;
+        margin-top: 70px;
+    }
+   
+    .section_about{
+        height:60rem;
+    }
+    #about{
+        padding-top: 10px;
+    }
+}
+     
+@media only screen and (max-width:1000px){ 
+    .nav_about{
+        width: 100%;
+    }
+    .img_owl{
+        height:150px;
+    }
+    .img{
+        display: none;
+    }
+    .about_quote{
+        display: none;
+    }
+
+    .nav_div{
+        display: none;
+    }
+    
+    .about-label{
+        display: block;
+        font-size: 24px;
+        float: right;
+        padding:10px;
+        border: solid lightgrey 1px;
+        border-radius: 5px;
+        position: relative;
+        margin-top: 5px;
+    }
+    .fa{
+        color: grey;
+        
+    }
+    
+    input:checked + .nav_div{
+        display: block;
+    }
+    .highlight{
+       
+          
+    }
+    label{
+        margin-right: 15px;
+    }
+    
+    .padding-none{
+        padding: 0;
+        margin: 0;   
+    }
+    #padding-up{
+        padding: 0;
+        margin: 0;
+    }
+    
+}
+
+    @media only screen and (max-width:900px){
+        .img{
+            display: none;
+        }
+       
+        #geekwise_small{
+            width: 150px;
+            padding: 5px;
+        }
+        header{
+            width: 100%;
+        }
+        nav{
+            width: 100%;
+        }
+        .flexbox{
+            flex: box;
+            width: 100%;
+            height: auto;
+            background-color: #fff;
+            padding: 0;
+        }
+        .flex-li{
+            display: block;
+            width: 100%;
+            text-align: center
+        }
+        .highlight{
+            position: relative;
+            top: -10px;
+            
+        }
+        .img_owl{
+            height: 210px;
+        }
+         .about_quote{
+            text-align: left;
+            width: 100%;
+            padding: 15px;
+            position: relative;
+            top: -108px;
+             padding-top: 15px;
+        }
+        main{
+            width: 100%;
+        }
+        .section_about{
+            width: 90%;
+            padding: 0;
+            margin: 0;
+        }
+       
+        
+    }
+@media only screen and (max-width:775px){
+    header{
+        height: auto;
+        
+    }
+    
+    .highlight{
+        position: relative;
+        top: -240px;
+        left: 280px;
+    }
+    #about{
+        width: 100%;
+        height: auto;
+    }
+    .want_to{
+        top: 300px;
+    }
+    #want_to{
+        
+    }
+    label{
+        margin-right: 50px;
+    }
+    
+}
+@media only screen and (max-width:580px){
+    .highlight{
+        position: absolute;
+    }
+}
+@media only screen and (max-width:30rem){
+    .about_header{
+        width: 100%;
+        height: auto;
+        margin: 0;   
+    }
+    .flexbox{
+        box-sizing: border-box;
+        width: 100%;
+        background-color: #fff;
+        margin: 0;
+    
+    }
+    .flex-li{
+       
+    }
+    .about_quote{
+        font-size: 14px;
+        text-align: left;
+
+        
+    }
+    label{
+        margin-right: 0px;
+    }
+    .section_about{
+            width: 100%;
+            margin: 0;
+            padding: 0;
+    }
+    #about{
+        width: 100%;
+        padding: 0;
+        margin: 0;
+        padding-left: 5px;
+    }
+    #geekwise_small{
+        padding: 12px;
+    }
+}
+
+
+

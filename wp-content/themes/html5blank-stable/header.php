@@ -33,7 +33,7 @@
     <i class="fa fa-bars"></i>  
         </label>
         
-     <header>
+     <header class="color_bg">
        <input type="checkbox" id="dropdown">
         <div class="nav_main_bar">
 <nav class="nav flex" role="navigation">

@@ -7,7 +7,7 @@
         <link rel="icon" type="image/png" href="http://geekwiseacademy.com/img/geekwise-favicon.png">
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
        <link rel="stylesheet" type="text/css" href="fonts.css"/>
-        <link href='<?php echo get_template_directory_uri(); ?>/styleflex.css' rel='stylesheet'/>
+        <link href='<?php echo get_template_directory_uri(); ?>/styleflex.css' rel='stylesheet'>
     </head>
 
     <body>   
@@ -17,7 +17,7 @@
                <img src="http://i.imgur.com/njOmOON.png" alt="geekwise sm" class="geekwise" id="geekwise_small">
                </a>
                 
-     <nav class="nav nav_about" role="navigation">
+ <nav class="nav_about" role="navigation">
 	<?php html5blank_nav(); ?>
 </nav>
     <!--<nav class="nav_about">-->

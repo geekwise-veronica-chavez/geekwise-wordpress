@@ -317,12 +317,14 @@ body{
         padding: 0;
         margin: 0;
 }
+
 header{
     width: 100%;
     height: auto;
     margin: 0 auto;
     padding: 0;
-    background-color: #fff;    
+    background-color: #fff;  
+    background-color: #7a1501;
 }
 
 .flex{
@@ -330,20 +332,21 @@ header{
     display: flex;
     -webkit-align-item:stretch;
     align-items: stretch;
+     background-color:#fff;
 }
 
 nav{
     width: 80%;
     margin: auto;
     padding: 10px;
-   
-    
+  
 }
 .main_bar{
     width: 80%;
     margin: auto; 
     text-align: center;
     margin-top: 10px;
+    background-color:#fff;
     
 }
 
@@ -434,6 +437,7 @@ li{
     width: 100%;
     background-color: #fff;
 }
+
 .image{
     background-image: url(http://i.imgur.com/bgMQrQr.jpg);
     background-image: 100%;
@@ -450,14 +454,15 @@ main{
     margin: 0 auto;
 /*    background-color: #7a1501;*/
 
-    
 }
+
 .text{
     margin:0;
     padding: 0;
     text-align: center;
     font-size: 18px;
     color: #fff;
+    
 }
 .em_fast{
     font-size: 1.8em;
@@ -486,7 +491,8 @@ footer{
     max-width: 80%;
     margin: auto;
     padding: 0;
-    height: 200px
+    height: 200px;
+    background-color: #7a1501;
 }
 .icons{
     width: 28%;

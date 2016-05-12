@@ -6,7 +6,7 @@
                 <section class="contact_info"> <img src="http://i.imgur.com/t23ma7m.png" alt="contact">
                 <p id="address"></p>
 
-                <p id="terry"><a href="#" id="terry">tsolis@bitwiseindustries.com</a></p>
+                <p id="terry"><a href="#" id="terry"></a></p>
                </section>
               
       

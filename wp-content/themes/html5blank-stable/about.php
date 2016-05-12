@@ -1,5 +1,6 @@
  <?php /* Template Name: about */ ?>
  <?php get_header( 'about' ); ?>
+ 
  <div class="img_owl">
                 <img src="http://i.imgur.com/EdXcPPL.png" alt="owl" class="img">
        
@@ -16,7 +17,7 @@
                     <p class="what"></p>
                 </div>
                  <li class="sign-tag">
-                   <a href="indexsignin.html" class=" middle highlight main">sign up
+                   <a href="indexsignin.html" class=" middle highlight main">
                    </a >
                 </li>
                 <div id="about">
@@ -30,7 +31,7 @@
                <div id="about">
                    <h1></h1>
                 <p class="length">
-                       <u>Lenght&#58;
+                       <u>
                        </u> 
                            
                 </p>
@@ -43,7 +44,7 @@
                         
                 </p>
                 <p class="cost"> 
-                        <u>Cost&#58;</u> 
+                        <u></u> 
                        
                 </p>
                 </div>

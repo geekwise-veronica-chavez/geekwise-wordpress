@@ -16,7 +16,7 @@
 <header class="course_header">
      
       <a href="<?php bloginfo('url'); ?>/home-page">
-      <img src="http://i.imgur.com/njOmOON.png" alt="geekwise sm" id="geekwise_image_debug" class="geek_logo"></a> 
+      <!--<img src="http://i.imgur.com/njOmOON.png" alt="geekwise sm" id="geekwise_image_debug" class="geek_logo"></a> -->
      
        
             <nav class="nav flex" role="navigation">

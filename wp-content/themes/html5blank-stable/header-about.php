@@ -13,9 +13,9 @@
     <body>   
     <header>
           <section class="about_header"> 
-               <a href="<?php bloginfo('url'); ?>/home.php">
-               <img src="http://i.imgur.com/njOmOON.png" alt="geekwise sm" class="geekwise" id="geekwise_small">
-               </a>
+               <!--<a href="<?php bloginfo('url'); ?>/home.php">-->
+               <!--<img src="http://i.imgur.com/njOmOON.png" alt="geekwise sm" class="geekwise" id="geekwise_small">-->
+               <!--</a>-->
                 
  <nav class="nav_about" role="navigation">
 	<?php html5blank_nav(); ?>

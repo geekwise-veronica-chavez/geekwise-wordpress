@@ -432,7 +432,9 @@ li{
     display: none;
 }  
 */
-
+.nav_main_bar{
+    margin-left: 250px;
+}
 .white{
     width: 100%;
     background-color: #fff;

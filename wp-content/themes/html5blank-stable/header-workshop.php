@@ -14,7 +14,7 @@
      <body class="course_page">
     
      <header class="red-bg">
-      <a href="<?php bloginfo('url'); ?>/home.php"><img src="http://i.imgur.com/njOmOON.png" alt="geekwise sm" id="geekwise_sm"></a>
+      <!--<a href="<?php bloginfo('url'); ?>/home.php"><img src="http://i.imgur.com/njOmOON.png" alt="geekwise sm" id="geekwise_sm"></a>-->
        
         
          <nav class="nav flex" role="navigation">

@@ -12,7 +12,7 @@
 <body>
  
      <header>
-       <a href="<?php bloginfo('url'); ?>/home.php"><img src="http://i.imgur.com/njOmOON.png" alt="geekwise sm" id="geekwise_small"></a>
+       <!--<a href="<?php bloginfo('url'); ?>/home.php"><img src="http://i.imgur.com/njOmOON.png" alt="geekwise sm" id="geekwise_small"></a>-->
       
             <nav class="nav flex" role="navigation">
 	            <?php html5blank_nav(); ?>

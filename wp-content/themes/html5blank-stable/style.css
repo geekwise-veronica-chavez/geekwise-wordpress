@@ -353,15 +353,15 @@ nav{
 li{
     list-style: none;
     display:inline;
-    font-size: 12.5px;
+    font-size: 13px;
     text-transform: uppercase;
     padding: 8px;
      padding-top: 20px;
     padding-bottom: 19px;
     margin: 0 auto;
     font-family: "lato", sans-serif;
-    text-shadow: 0 .5px 0 grey;
-
+    text-shadow: 0 .4px 0 grey;
+    font-weight: 700;
    
    
     
@@ -389,16 +389,21 @@ li{
     text-decoration: none;
     
 }
+
 .menu-item{
     margin:0;
     font-size: 12px;
 }
+
 #menu-item-24{
     background-color: #f9da0c;
+    color:  #7a1501;
 }
+
 .menu-item:hover{
     background-color: #f9da0c;
 }
+
 .highlight{
     padding: 0;
     margin: 0;
@@ -443,7 +448,7 @@ li{
 }  
 */
 .nav_main_bar{
-    margin-left: 250px;
+    margin-left: 280px;
 }
 .white{
     width: 100%;
@@ -689,7 +694,8 @@ footer{
     
    
     .nav_main_bar{
-        height: 100px
+        height: 100px;
+        margin:0;
     }
     .image{
         padding-top: 30px;

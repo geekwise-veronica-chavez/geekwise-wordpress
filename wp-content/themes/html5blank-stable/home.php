@@ -1,13 +1,13 @@
 <?php /* Template Name:home */ ?>
 <?php get_header( 'home' ); ?>
- <main>
+ <main class=home_bg>
         <div class="image white">
             
         </div>
          <div class="text">
              <p class="em_fast"></p>
              <p class="quote"></p>
-             <hr>
+             <!--<hr>-->
         </div>
      </main>
      <footer>

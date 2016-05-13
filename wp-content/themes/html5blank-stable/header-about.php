@@ -11,49 +11,51 @@
         <?php wp_head(); ?>
     </head>
 
-    <body>   
+    <body>  
+<!--    <nav class="nav_about" role="navigation">-->
+<!--	<?php html5blank_nav(); ?>-->
+<!--</nav>-->
     <header>
           <section class="about_header"> 
-               <!--<a href="<?php bloginfo('url'); ?>/home.php">-->
-               <!--<img src="http://i.imgur.com/njOmOON.png" alt="geekwise sm" class="geekwise" id="geekwise_small">-->
-               <!--</a>-->
+               <a href="/index.php?page_id=6">
+               <img src="http://i.imgur.com/njOmOON.png" alt="geekwise sm" class="geekwise" id="geekwise_small">
+               </a>
+                 <label for="dropdown" class="about-label">
+                <i class="fa fa-bars"></i>
+               </label>
+    <nav class="nav_about">
+        <ul class="flexbox">
+            <input type="checkbox" id="dropdown">
+    <div class="nav_div">       
+                <li class="flex-li">
+                    <a href="/index.php?page_id=7" class="main yellow">about
+                    </a>
+                </li>
+                <li class="flex-li">
+                     <a href="/index.php?page_id=8" class="main">course
+                     </a>
+                </li>
+                <li class="flex-li">
+                     <a href="/index.php?page_id=16" class="main">workshops
+                     </a>
+                </li>
+                 <li class="flex-li">
+                     <a href="/index.php?page_id=10" class="main">cohort
+                     </a>
+                </li>
+                <li class="flex-li">
+                     <a href="/index.php?page_id=14" class="main">team
+                     </a>
+                </li>
+                <li class="flex-li">
+                    <a href="/index.php?page_id=18" class=" main">contact
+                    </a>
+                </li> 
                 
- <nav class="nav_about" role="navigation">
-	<?php html5blank_nav(); ?>
-</nav>
-    <!--<nav class="nav_about">-->
-    <!--    <ul class="flexbox">-->
-    <!--        <input type="checkbox" id="dropdown">-->
-    <!--<div class="nav_div">       -->
-    <!--            <li class="flex-li">-->
-    <!--                <a href="<?php bloginfo('url'); ?>/about.php" class="main yellow">about-->
-    <!--                </a>-->
-    <!--            </li>-->
-    <!--            <li class="flex-li">-->
-    <!--                 <a href="<?php bloginfo('url'); ?>/course.php" class="main">course-->
-    <!--                 </a>-->
-    <!--            </li>-->
-    <!--            <li class="flex-li">-->
-    <!--                 <a href="<?php bloginfo('url'); ?>/workshop.php" class="main">workshops-->
-    <!--                 </a>-->
-    <!--            </li>-->
-    <!--             <li class="flex-li">-->
-    <!--                 <a href="<?php bloginfo('url'); ?>/cohort.php" class="main">cohort-->
-    <!--                 </a>-->
-    <!--            </li>-->
-    <!--            <li class="flex-li">-->
-    <!--                 <a href="<?php bloginfo('url'); ?>/team.php" class="main">team-->
-    <!--                 </a>-->
-    <!--            </li>-->
-    <!--            <li class="flex-li">-->
-    <!--                <a href="<?php bloginfo('url'); ?>/contact.php" class=" main">contact-->
-    <!--                </a>-->
-    <!--            </li> -->
-                
-    <!--</div>-->
-    <!--    </ul>-->
+    </div>
+        </ul>
 
-    <!--</nav>-->
+    </nav>
             
 </section>
         </header>

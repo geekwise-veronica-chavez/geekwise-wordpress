@@ -31,7 +31,7 @@ html {
 }
 body {
 	font:300 11px/1.4 'Helvetica Neue', Helvetica, Arial, sans-serif;
-	color:#444;
+	color:black;
 }
 /* clear */
 .clear:before,
@@ -390,21 +390,7 @@ li{
     
 }
 
-.menu-item{
-    margin:0;
-    font-size: 12px;
-}
-
-#menu-item-24{
-    background-color: #f9da0c;
-    color:  #7a1501;
-}
-
-.menu-item:hover{
-    background-color: #f9da0c;
-}
-
-.highlight{
+.highlight {
     padding: 0;
     margin: 0;
     background-color: #f9da0c;
@@ -447,9 +433,9 @@ li{
     display: none;
 }  
 */
-.nav_main_bar{
-    margin-left: 280px;
-}
+/*.nav_main_bar{*/
+/*    margin-left: 280px;*/
+/*}*/
 .white{
     width: 100%;
     background-color: #fff;
@@ -857,7 +843,7 @@ footer{
 }
 #fee{
     margin: 0;
-    padding: 0;
+    padding-left:15px;
     text-align: left;
   
 }
@@ -874,6 +860,7 @@ footer{
 }
 #time{
     text-align: left;
+    padding-left: 15px;
 }
 
 .topic{
@@ -894,21 +881,21 @@ u{
 .time{
     width: 10px;
     text-align: left;
-    padding: 5px;
+    padding-left: 15px;
 }
 .fee{
     width: 50px;
-    padding: 5px;
+    padding: 15px;
 }
 .instruction{
     text-align: center;
     width: 20px;
     margin: 0;
-    padding: 0;
+    padding-left: 15px;
 }
 
 .enroll_sign{
-    padding: 15px;
+    padding: 5px;
     background-color: #f9da0c;
     text-decoration: none;
     text-transform: uppercase;
@@ -1624,4 +1611,20 @@ input[]:checked ~ .class2 {
         width: 100%;
     }
     
+}
+
+
+
+
+/*crud css page*/
+.crud_course{
+    background-color: #fff;
+}
+.topic_crud{
+    text-align:left;
+    
+}
+.section-crud{
+    width: 70%;
+    margin:auto;
 }

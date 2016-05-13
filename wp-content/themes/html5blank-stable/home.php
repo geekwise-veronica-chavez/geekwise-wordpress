@@ -1,11 +1,19 @@
 <?php /* Template Name:home */ ?>
 <?php get_header( 'home' ); ?>
+
  <main class=home_bg>
+  
         <div class="image white">
             
         </div>
          <div class="text">
              <p class="em_fast"></p>
+            <?php if (have_posts()) : ?>
+            <?php while (have_posts()) : the_post(); ?>
+            <?php the_content(); ?>
+            <?php endwhile; ?>
+            <?php endif; ?>
+            
              <p class="quote"></p>
              <!--<hr>-->
         </div>

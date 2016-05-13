@@ -1,6 +1,12 @@
 <?php /* Template Name: cohort */ ?>
 <?php get_header('cohort'); ?>
  <main class="cohort_main">
+    <?php if (have_posts()) : ?>
+            <?php while (have_posts()) : the_post(); ?>
+            <?php the_content(); ?>
+            <?php endwhile; ?>
+            <?php endif; ?>
+            
         <section class="cohort_top">
            <h1 class="cohort_question"> </h1>
            <p class="paragraph"> </p>

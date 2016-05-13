@@ -10,6 +10,9 @@
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
         <?php wp_head(); ?>
     </head>
+<!--      <nav class="nav flex cohort_nav" role="navigation">-->
+<!--	<?php html5blank_nav(); ?>-->
+<!--</nav>-->
 <body class=" last_page">
 <label for="dropdown" class="label_main">
     <i class="fa fa-bars"></i>  
@@ -17,39 +20,39 @@
        
      <div class="owl_upsidedown"></div>  
       <header class="white-bg">
+           
        
-      <nav class="nav flex cohort_nav" role="navigation">
-	<?php html5blank_nav(); ?>
-</nav>
-           <!--  <nav class="flex cohort_nav">-->
-           <!--    <a href="<?php bloginfo('url'); ?>/home.php"><img src="http://i.imgur.com/njOmOON.png" alt="geekwise sm" class="geekwise_cohort"-->
-           <!--class:logo_geek></a>-->
-           <!--    <input type="checkbox" id="dropdown">-->
-         <!--       <ul class="main_bar margin_right">-->
-         <!--        <li class="cohort-li">-->
-         <!--            <a href="<?php bloginfo('url'); ?>/about.php" class="main2">about</a>-->
-         <!--        </li>-->
-         <!--        <li class="cohort-li">-->
-         <!--            <a href="<?php bloginfo('url'); ?>/course.php" class="main2">course</a>-->
-         <!--        </li>-->
-         <!--        <li class="cohort-li">-->
-         <!--            <a href="<?php bloginfo('url'); ?>/workshop.php"class="main2">workshops</a>-->
-         <!--        </li>-->
-         <!--        <li class="cohort-li">-->
-         <!--            <a href="<?php bloginfo('url'); ?>/cohort.php" class="main2">cohort</a>-->
-         <!--        </li>-->
+      
+             <nav class="flex cohort_nav">
+               <a href="/index.php?page_id=6"><img src="http://i.imgur.com/njOmOON.png" alt="geekwise sm" class="geekwise_cohort"
+           class:logo_geek></a>
+               <input type="checkbox" id="dropdown">
+                <ul class="main_bar margin_right">
+                 <li class="cohort-li">
+                     <a href="/index.php?page_id=7" class="main2">about</a>
+                 </li>
+                 <li class="cohort-li">
+                     <a href="/index.php?page_id=8" class="main2">course</a>
+                 </li>
+                 <li class="cohort-li">
+                     <a href="/index.php?page_id=16" class="main2">workshops</a>
+                 </li>
+                 <li class="cohort-li">
+                     <a href="/index.php?page_id=10" class="main2">cohort</a>
+                 </li>
                 
-         <!--        <li class="cohort-li">-->
-         <!--            <a href="<?php bloginfo('url'); ?>/team.php" class="main2">team</a>-->
-         <!--        </li>-->
-         <!--        <li class="cohort-li">-->
-         <!--            <a href="<?php bloginfo('url'); ?>/contact.php" class="main2">contact</a>-->
-         <!--        </li>-->
-         <!--         <li class="cohort-sign">-->
-         <!--            <a href="<?php bloginfo('url'); ?>/signin.php" class="co-sign">signup</a>-->
-         <!--        </li>-->
-         <!--    </ul>   -->
-         <!--</nav>-->
+                 <li class="cohort-li">
+                     <a href="/index.php?page_id=14" class="main2">team</a>
+                 </li>
+                 <li class="cohort-li">
+                     <a href="/index.php?page_id=18" class="main2">contact</a>
+                 </li>
+                  <li class="cohort-sign">
+                     <a href="/index.php?page_id=12" class="co-sign">signup</a>
+                 </li>
+             </ul>   
+         </nav>
         
           
-     </header>  
+     </header>    
+        

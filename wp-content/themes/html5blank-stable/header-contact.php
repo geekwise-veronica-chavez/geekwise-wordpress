@@ -12,41 +12,41 @@
     </head>
    <body class="course_page">
      
-       
+        <label for="dropdown" class="label_main">
+    <i class="fa fa-bars"></i>  
+        </label>
 <header class="course_header">
      
-      <a href="<?php bloginfo('url'); ?>/home-page">
-      <!--<img src="http://i.imgur.com/njOmOON.png" alt="geekwise sm" id="geekwise_image_debug" class="geek_logo"></a> -->
+      <a href="/index.php?page_id=6">
+      <img src="http://i.imgur.com/njOmOON.png" alt="geekwise sm" id="geekwise_image_debug" class="geek_logo"></a> 
      
-       
-            <nav class="nav flex" role="navigation">
-	<?php html5blank_nav(); ?>
-</nav>
-         <!--    <nav class="flex">-->
-         <!--       <ul class="main_bar color-drop">-->
-         <!--        <li>-->
-         <!--            <a href="<?php bloginfo('url'); ?>/about.php" class="main white-font">about</a>-->
-         <!--        </li>-->
-         <!--        <li>-->
-         <!--            <a href="<?php bloginfo('url'); ?>/course.php" class="main white-font">course</a>-->
-         <!--        </li>-->
-         <!--        <li>-->
-         <!--            <a href="<?php bloginfo('url'); ?>/workshop.php" class="main white-font">workshops</a>-->
-         <!--        </li>-->
-         <!--        <li>-->
-         <!--            <a href="<?php bloginfo('url'); ?>/cohort.php" class="main white-font">cohort</a>-->
-         <!--        </li>-->
-         <!--        <li class="highlight no-high">-->
-         <!--            <a href="<?php bloginfo('url'); ?>/signin.php" class="header_nav nav_signup sign-query">signup</a>-->
-         <!--        </li>-->
-         <!--        <li>-->
-         <!--            <a href="<?php bloginfo('url'); ?>/team.php" class="main white-font">team</a>-->
-         <!--        </li>-->
-         <!--        <li>-->
-         <!--            <a href="<?php bloginfo('url'); ?>/contact.php" class="main yellow">contact</a>-->
-         <!--        </li>-->
-         <!--    </ul>   -->
-         <!--</nav>-->
-      
+       <input type="checkbox" id="dropdown">
+        <div class="nav_main_bar">
+             <nav class="flex">
+                <ul class="main_bar color-drop">
+                 <li>
+                     <a href="/index.php?page_id=7" class="main white-font">about</a>
+                 </li>
+                 <li>
+                     <a href="/index.php?page_id=8" class="main white-font">course</a>
+                 </li>
+                 <li>
+                     <a href="/index.php?page_id=16" class="main white-font">workshops</a>
+                 </li>
+                 <li>
+                     <a href="/index.php?page_id=10" class="main white-font">cohort</a>
+                 </li>
+                 <li class="highlight no-high">
+                     <a href="/index.php?page_id=12" class="header_nav nav_signup sign-query">signup</a>
+                 </li>
+                 <li>
+                     <a href="/index.php?page_id=14" class="main white-font">team</a>
+                 </li>
+                 <li>
+                     <a href="/index.php?page_id=18" class="main yellow">contact</a>
+                 </li>
+             </ul>   
+         </nav>
+         </div>
           
-     </header>  
+     </header>    

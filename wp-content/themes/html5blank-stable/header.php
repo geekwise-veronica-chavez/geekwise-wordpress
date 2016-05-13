@@ -36,34 +36,34 @@
      <header class="color_bg">
        <input type="checkbox" id="dropdown">
         <div class="nav_main_bar">
-<nav class="nav flex" role="navigation">
-	<?php html5blank_nav(); ?>
-</nav>
-         <!--    <nav class="flex">-->
-         <!--       <ul class="main_bar">-->
-         <!--        <li class="nav_bar_li">-->
-         <!--            <a href="<?php bloginfo('url'); ?>/about.php" class="home_li">about</a>-->
-         <!--        </li>-->
-         <!--        <li class="nav_bar_li">-->
-         <!--            <a href="<?php bloginfo('url'); ?>/course.php" class="home_li">course</a>-->
-         <!--        </li>-->
-         <!--        <li class="nav_bar_li">-->
-         <!--            <a href="<?php bloginfo('url'); ?>/workshop.php" class="home_li">workshops</a>-->
-         <!--        </li>-->
-         <!--        <li class="nav_bar_li">-->
-         <!--            <a href="<?php bloginfo('url'); ?>/cohort.php" class="home_li">cohort</a>-->
-         <!--        </li>-->
-         <!--        <li class="highlight">-->
-         <!--            <a href="<?php bloginfo('url'); ?>/signin.php" class="header_nav nav_signup">signup</a>-->
-         <!--        </li>-->
-         <!--        <li class="nav_bar_li">-->
-         <!--            <a href="<?php bloginfo('url'); ?>/team.php" class="home_li">team</a>-->
-         <!--        </li>-->
-         <!--        <li class="nav_bar_li">-->
-         <!--            <a href="<?php bloginfo('url'); ?>/contact.php" class="home_li">contact</a>-->
-         <!--        </li>-->
-         <!--    </ul>   -->
-         <!--</nav>-->
+<!--<nav class="nav flex" role="navigation">-->
+<!--	<?php html5blank_nav(); ?>-->
+<!--</nav>-->
+             <nav class="flex">
+                <ul class="main_bar">
+                 <li class="nav_bar_li">
+                     <a href="/index.php?page_id=7" class="home_li">about</a>
+                 </li>
+                 <li class="nav_bar_li">
+                     <a href="/index.php?page_id=8" class="home_li">course</a>
+                 </li>
+                 <li class="nav_bar_li">
+                     <a href="/index.php?page_id=16" class="home_li">workshops</a>
+                 </li>
+                 <li class="nav_bar_li">
+                     <a href="/index.php?page_id=10" class="home_li">cohort</a>
+                 </li>
+                 <li class="highlight">
+                     <a href="/index.php?page_id=12" class="header_nav nav_signup">signup</a>
+                 </li>
+                 <li class="nav_bar_li">
+                     <a href="/index.php?page_id=14" class="home_li">team</a>
+                 </li>
+                 <li class="nav_bar_li">
+                     <a href="/index.php?page_id=18" class="home_li">contact</a>
+                 </li>
+             </ul>   
+         </nav>
          </div>
           
 			<header class="header clear" role="banner">

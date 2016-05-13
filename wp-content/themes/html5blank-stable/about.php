@@ -2,6 +2,12 @@
  <?php get_header( 'about' ); ?>
  
  <div class="img_owl">
+       <?php if (have_posts()) : ?>
+            <?php while (have_posts()) : the_post(); ?>
+            <?php the_content(); ?>
+            <?php endwhile; ?>
+            <?php endif; ?>
+            
                 <img src="http://i.imgur.com/EdXcPPL.png" alt="owl" class="img">
        
                 <p class="about_quote">

@@ -1,6 +1,12 @@
 <?php /* Template Name: workshop */ ?>
 <?php get_header( 'workshop'); ?>
  <main class="main_workshop">
+    <?php if (have_posts()) : ?>
+            <?php while (have_posts()) : the_post(); ?>
+            <?php the_content(); ?>
+            <?php endwhile; ?>
+            <?php endif; ?>
+            
            <section class="work_sec">
               <h1 class="work_header"> </h1>
                <p class="work_text"> </p>

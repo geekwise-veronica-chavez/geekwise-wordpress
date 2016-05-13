@@ -12,7 +12,7 @@
                         <th id="topic">Topic</th>
                        <th id="duration">Duration</th>
                         <th id="time">Date/Time</th>
-                        <th id="fee">fee</th>
+                        <th id="fee">Fee</th>
                         <th id="instructor">Instructor</th>
                         <th id="up">SignUp</th>
                     </tr>
@@ -20,7 +20,7 @@
                     <?php query_posts('post_type=geekwise'); ?>
                     
                         <?php while (have_posts()) : the_post(); ?>  
-                     <tr>
+                     <tr class="class_crud">
                          <td class="topic_crud"><?php the_title(); ?><?php the_content(); ?></td>
                         <td class="duration"><?php the_field('duration'); ?></td>
                         <td class="time"><?php the_field('date'); ?></td>
@@ -32,4 +32,5 @@
               
                 </table>
             </section>
+            <section class="bottom_crud"><a href="/index.php?page_id=12" class="footer_crud">SEATING IS LIMITED, SIGN UP TODAY</a></section>
         </main>

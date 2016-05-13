@@ -762,7 +762,7 @@ footer{
     
 }
 .flex2{
-    width: 85%;
+    width: 90%;
 }
 
 .small_gk{
@@ -809,16 +809,17 @@ footer{
 }
 .course_quote{
     margin: auto;
-    width: 85%;
+    width: 80%;
     height: auto;
     color: #fff;
-    font-size: 21px;
+    font-size: 18.5px;
     float: left;
-    margin-left: 85px;
+    margin-left: 75px;
     padding-top: 2.2em;
-    font-weight:bold;
+    font-weight:600;
     font-family:"franchise", sans-serif;
-    letter-spacing: 1px;
+    letter-spacing: -1.5px;
+    text-align: left;
    
 
 }
@@ -827,7 +828,7 @@ footer{
     font-family: "lato", sans-serif;
 }
 .course_info{
-    width: 80%;
+    width: 70%;
     margin: auto;
     font-size: 13px;
     padding-top: 30px;
@@ -851,6 +852,7 @@ footer{
     font-size: 14px; 
     width: 100%;
     font-weight: 200;
+    border-bottom: solid lightgrey 2px;
 }
 
 #instructor{
@@ -895,7 +897,9 @@ u{
 }
 
 .enroll_sign{
-    padding: 5px;
+    padding: 8px;
+    padding-top: 15px;
+    padding-bottom: 15px;
     background-color: #f9da0c;
     text-decoration: none;
     text-transform: uppercase;
@@ -1619,12 +1623,36 @@ input[]:checked ~ .class2 {
 /*crud css page*/
 .crud_course{
     background-color: #fff;
+    height: 650px;
 }
 .topic_crud{
     text-align:left;
     
 }
+
 .section-crud{
     width: 70%;
     margin:auto;
+}
+.class_crud{
+     border-bottom: solid lightgrey 2px;
+}
+.bottom_crud{
+    width: 70%;
+    margin:auto;
+    margin-top: 30px;
+   
+}
+.footer_crud{
+    padding: 15px;
+    background-color: #f9da0c;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: black;
+    margin: auto;
+    text-align: center;
+   
+    
+    
+   
 }

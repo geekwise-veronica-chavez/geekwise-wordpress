@@ -11,41 +11,46 @@
         <link rel="stylesheet" type="text/css" href="css/style.css"/>
       <?php wp_head(); ?>
     </head>
-        <body class="course_page">
-     <label for="dropdown" class="label_main">
+     	<body class="course-page">
+
+    <label for="dropdown" class="label_main">
     <i class="fa fa-bars"></i>  
         </label>
         
      <header class="red-bg">
-      <a href="/index.php?page_id=6"><img src="http://i.imgur.com/njOmOON.png" alt="geekwise sm" id="geekwise_sm"></a>
+       <a href="/index.php?page_id=6"><img src="http://i.imgur.com/njOmOON.png" alt="geekwise sm" class="geekwise_sm logo_gk"></a>
        <input type="checkbox" id="dropdown">
-        <div class="nav_main_bar">
-             <nav class="flex">
-                <ul class="main_bar">
-                 <li>
-                     <a href="/index.php?page_id=7" class="main white-font">about</a>
+        <div class="nav_main_bar course_nav">
+             <nav class="flex2">
+                 <a href="index.html" class="small_gk"><img src="http://i.imgur.com/njOmOON.png" alt="geekwise sm" class="geekwise_sm_course"></a>
+                <ul class="course_ul">
+                 <li class="li">
+                     <a href="/index.php?page_id=7" class="course_li">about</a>
                  </li>
-                 <li>
-                     <a href="/index.php?page_id=8" class="main white-font">course</a>
+                 <li class="li">
+                     <a href="/index.php?page_id=8" class="course_li">course</a>
                  </li>
-                 <li>
-                     <a href="/index.php?page_id=16" class="main yellow">workshops</a>
+                 <li class="li">
+                     <a href="/index.php?page_id=16" class=" yellow">workshops</a>
                  </li>
-                 <li>
-                     <a href="/index.php?page_id=10" class="main white-font">cohort</a>
+                 <li class="li">
+                     <a href="/index.php?page_id=10" class="course_li">cohort</a>
                  </li>
-                 <li class="highlight">
-                     <a href="/index.php?page_id=12" class="header_nav nav_signup">signup</a>
+                
+                 <li class="li">
+                     <a href="/index.php?page_id=14" class="course_li">team</a>
                  </li>
-                 <li>
-                     <a href="/index.php?page_id=14" class="main white-font">team</a>
+                 <li class="li">
+                     <a href="/index.php?page_id=18" class="course_li">contact</a>
                  </li>
-                 <li>
-                     <a href="/index.php?page_id=18" class="main white-font">contact</a>
+                  <li class="yellow_sign li sign_display">
+                     <a href="/index.php?page_id=12" class="course_sign">signup</a>
                  </li>
              </ul>   
          </nav>
+           <div class="course_quote"> NO FLUFF. WE TEACH SKILLS THAT YOU CAN USE TO MAKE MONEY.</div>
          </div>
-          
-     </header>    
+         
+     </header> 
+       
         

@@ -1,39 +1,28 @@
 <?php /* Template Name: workshop */ ?>
 <?php get_header( 'workshop'); ?>
- <main class="main_workshop">
-    <?php if (have_posts()) : ?>
-            <?php while (have_posts()) : the_post(); ?>
-            <?php the_content(); ?>
-            <?php endwhile; ?>
-            <?php endif; ?>
-            
-           <section class="work_sec">
-              <h1 class="work_header"> </h1>
-               <p class="work_text"> </p>
-               <p class="work_text"></p>
-               
+
+ <main class="main_workshop_crud">
+  
+   
+           <?php query_posts('post_type=geekwise_workshop'); ?>
+                    
+           <?php while (have_posts()) : the_post(); ?>  
+           
+        
+           <section class="work_sec_crud">
+               <h1 class="work_header"><?php the_title(); ?> <?php the_content(); ?></h1>
+               <article class="bold_workshop"><?php the_field('quote'); ?></article>
+               <p class="work_text"><?php the_field('date'); ?> </p>
+               <p class="work_text"><?php the_field('info'); ?></p>
+               <article class="bold_workshop"><?php the_field('quote-two'); ?></article>
+               <p class="work_text"><?php the_field('date-two'); ?> </p>
+               <p class="work_text"><?php the_field('info-two'); ?></p>
+               <article class="bold_workshop"><?php the_field('quote-three'); ?></article>
+               <p class="work_text"><?php the_field('date-three'); ?> </p>
+               <p class="work_text"><?php the_field('info-three'); ?></p>
            </section>
-           <section class="work_sec">
-               <h1 class="work_header"></h1>
-               <article class="bold_workshop"></article>
-               <p class="work_text"> </p>
-               <p class="work_text"></p>
-               <article class="bold_workshop"></article>
-               <p class="work_text"></p>
-               <p class="work_text"></p>
-               <article class="bold_workshop"></article>
-               <p class="work_text"></p>
-               <p class="work_text"></p>
-               
-           </section>
-            <section class="work_sec">
-                <h1 class="work_header"></h1>
-                <article class="bold_workshop"> </article>
-                <p class="work_text"></p>
-                <p class="work_text"></p>
-                <article class="bold_workshop"></article>
-                <p class="work_text"></p>
-                <p class="work_text"></p>
-              </section>
+           
+          <?php endwhile; ?>
+             <div class="footer_work"><a href="#" id="bottom_work">sitting is limited, signup today!</a></div>
         </main>
-        <div class="footer_work"><a href="#" id="bottom_work"></a></div>
+      

@@ -10,53 +10,35 @@
             
                 <img src="http://i.imgur.com/EdXcPPL.png" alt="owl" class="img">
        
-                <p class="about_quote">
-                
-                </p>
+                <p class="about_quote">Learn a real world <br> technology skill. Fast.</p>
             </div>
-        <main>
- <section class="section_about">     
-                    
-                <div class="about_what" id="about">
-
-                    <h1></h1>
-                    <p class="what"></p>
-                </div>
-                 <li class="sign-tag">
-                   <a href="indexsignin.html" class=" middle highlight main">
-                   </a >
+            
+        <main class="main_about_crud">
+            
+ <section class="section_about_crud">     
+               <li class="sign-tag">
+                   <a href="indexsignin.html" class=" middle highlight main">Signup</a >
                 </li>
-                <div id="about">
-                    <h1></h1>
-                    <p class="how"></p>
-                </div> 
-               <div id="about" class="padding-none">
-                   <h1 id="padding-up"></h1>
-                   <p class="why_text"> </p>
-               </div>
-               <div id="about">
-                   <h1></h1>
-                <p class="length">
-                       <u>
-                       </u> 
-                           
-                </p>
-                <p class="time_about">
-                        <u></u> 
-                        
-                </p>
-                <p class="location">
-                        <u></u> 
-                        
-                </p>
-                <p class="cost"> 
-                        <u></u> 
-                       
-                </p>
+                      <?php query_posts('post_type=geekwise_about'); ?>
+                    
+                        <?php while (have_posts()) : the_post(); ?>  
+                <div class="about_what" id="about">
+                   
+
+                    <h1><?php the_title(); ?><?php the_content(); ?></h1>
+                    <p class="about"><?php the_field('what'); ?></p>
+                
+                 
                 </div>
-        </section>
+             
+                
+               <?php endwhile; ?>
+            </section>
+               
+      
     
               <div class="want_to">
                   <a href="#" id="want_to"></a>
             </div>
         </main>
+        

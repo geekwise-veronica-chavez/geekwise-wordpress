@@ -1652,7 +1652,16 @@ input[]:checked ~ .class2 {
     margin: auto;
     text-align: center;
    
-    
-    
    
 }
+ /*workshop crud */
+ .main_workshop_crud{
+     background-color: #fff;
+     text-align: left;
+    
+ }
+ .work_sec_crud{
+     width: 70%;
+     margin:auto;
+     padding:0;
+ }

@@ -53,19 +53,20 @@ header{
     padding-right: 5px;
     font-weight: bold;
     font-family: "lato", sans-serif;
-    
+    font-size: 13px;
 }
-.main{
+
+.main_li_crud{
     text-decoration: none;
     color: black;
     padding: 5px;
 }
-.main:hover{
+.main_li_crud:hover{
     color:#7a1501;
 }
-/*.yellow{*/
-/*    color:#7a1501;*/
-/*}*/
+.yellow_about_crud{
+    color:#7a1501;
+}
 .sign-tag{
     list-style: none;
 }
@@ -92,41 +93,42 @@ header{
   
 }
 .about_quote{
-    font-size: 3.2em;
+    font-size: 2.2em;
     text-transform: uppercase;
     margin: 0;
     padding: 0;
     text-align: right;
-    width: 45%;
+    width: 35%;
     float: left;
-    margin-top: 3rem;
+    margin-top: 5.5rem;
     font-family: 'franchise',sans-serif;
     font-weight: bold;
     line-height: 1.5;
+    letter-spacing: -2px;
     
 
 }
-main{
+.main_about_crud{
     width: 100%;
     background-color: #7a1501;
     height: auto;
 }
 
-.section_about{
-    width: 80%;
+.section_about_crud{
+    width: 70%;
     margin: auto;
     clear: both;
     background-color: #7a1501;
+    text-align: left;
    
 }
 #about{
-    width: 36%;
+    width: 46%;
     float: left;
     color: #fff;
     font-size: 14px;
     padding-left: 35px;
     line-height: 2;
-    margin-left: 25px;
     font-family:"lato",sans-serif;
 
 }

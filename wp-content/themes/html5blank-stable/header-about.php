@@ -28,27 +28,27 @@
             <input type="checkbox" id="dropdown">
     <div class="nav_div">       
                 <li class="flex-li">
-                    <a href="/index.php?page_id=7" class="main yellow">about
+                    <a href="/index.php?page_id=7" class=".yellow_about_crud">about
                     </a>
                 </li>
                 <li class="flex-li">
-                     <a href="/index.php?page_id=8" class="main">course
+                     <a href="/index.php?page_id=8" class=".main_li_crud">course
                      </a>
                 </li>
                 <li class="flex-li">
-                     <a href="/index.php?page_id=16" class="main">workshops
+                     <a href="/index.php?page_id=16" class=".main_li_crud">workshops
                      </a>
                 </li>
                  <li class="flex-li">
-                     <a href="/index.php?page_id=10" class="main">cohort
+                     <a href="/index.php?page_id=10" class=".main_li_crud">cohort
                      </a>
                 </li>
                 <li class="flex-li">
-                     <a href="/index.php?page_id=14" class="main">team
+                     <a href="/index.php?page_id=14" class=".main_li_crud">team
                      </a>
                 </li>
                 <li class="flex-li">
-                    <a href="/index.php?page_id=18" class=" main">contact
+                    <a href="/index.php?page_id=18" class=".main_li_crud">contact
                     </a>
                 </li> 
                 

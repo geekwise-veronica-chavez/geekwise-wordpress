@@ -1,20 +1,18 @@
 <?php /* Template Name: team*/ ?>
 <?php get_header( 'team' ); ?>
-       <article class="team_text"></article>
-         <?php if (have_posts()) : ?>
-            <?php while (have_posts()) : the_post(); ?>
-            <?php the_content(); ?>
-            <?php endwhile; ?>
-            <?php endif; ?>
+       <article class="team_text">Geekwise Academy was founded on the belief that we, as in the world, can do a whole lot better than we presently are in educating technologists. To accomplish that, we needed to assemble a team of people who know what they’re talking about. Here’s what we came up with.</article>
+         
             
    <section class="team_wise">
-       <div class="team_geek"><a href="indexjake.html" class="photo_name">
-       <div class="name"></div> </a>
+   <?php query_posts('post_type=geekwise_team'); ?>
+                    
+                <?php while (have_posts()) : the_post(); ?>  
+       <div class="team_geek">
+               
+           <a href="indexjake.html" class="photo_name">
+             <?php the_content(); ?>
+               <div class="name"><?php the_field('name'); ?></div> 
+           </a>
        </div>
-       <div class="team_geek"><a href="indexirma.html" class="photo_name">
-       <div class="name"></div></a> </div>
-       <div class="team_geek"><a href="indexbeth.html" class="photo_name"> <div class="name"> </div></a> </div>
-       <div class="team_geek"><a href="indexterry.html" class="photo_name"> <div class="name"> </div></a></div>
+      <?php endwhile; ?>
    </section>
-   
-   d

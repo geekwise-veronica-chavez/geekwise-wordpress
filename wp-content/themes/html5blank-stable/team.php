@@ -1,5 +1,5 @@
 <?php /* Template Name: team*/ ?>
-<?php get_header( 'Team' ); ?>
+<?php get_header( 'team' ); ?>
        <article class="team_text"></article>
          <?php if (have_posts()) : ?>
             <?php while (have_posts()) : the_post(); ?>
@@ -16,3 +16,5 @@
        <div class="team_geek"><a href="indexbeth.html" class="photo_name"> <div class="name"> </div></a> </div>
        <div class="team_geek"><a href="indexterry.html" class="photo_name"> <div class="name"> </div></a></div>
    </section>
+   
+   d

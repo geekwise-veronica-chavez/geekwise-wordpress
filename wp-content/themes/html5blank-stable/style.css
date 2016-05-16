@@ -1665,3 +1665,18 @@ input[]:checked ~ .class2 {
      margin:auto;
      padding:0;
  }
+ 
+ /*team crud page */
+ 
+ .main_team_crud{
+     color black;
+     
+     
+ }
+ .main_team_crud:hover{
+     color:#7a1501;
+     
+ }
+.team_header{
+    background-color: #fff;
+}

@@ -17,7 +17,7 @@
             
  <section class="section_about_crud">     
                <li class="sign-tag">
-                   <a href="indexsignin.html" class=" middle highlight main">Signup</a >
+                   <a href="/index.php?page_id=12" class=" middle highlight main">Signup</a >
                 </li>
                       <?php query_posts('post_type=geekwise_about'); ?>
                     

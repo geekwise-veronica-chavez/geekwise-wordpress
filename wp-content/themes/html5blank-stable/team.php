@@ -10,7 +10,7 @@
        <div class="team_geek">
                
            <a href="indexjake.html" class="photo_name">
-             <?php the_content(); ?>
+            <?php the_post_thumbnail(); ?>
                <div class="name"><?php the_field('name'); ?></div> 
            </a>
        </div>

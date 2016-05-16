@@ -518,7 +518,7 @@ footer{
 /*    overflow: hidden;*/
 /*    width: 1px;*/
 /*    display: inline-block;*/
-/*    vertical-align: middle;*/
+/*    vertical-aligmiddle;*/
 /*    float: left;*/
 /*}*/
 
@@ -1197,7 +1197,8 @@ u{
     margin: auto;
     font-size: 14px;
     text-align: left;
-    padding: 15px
+    padding: 15px;
+    margin-top: -20px
 }
 .sign_top{
     text-transform: uppercase;

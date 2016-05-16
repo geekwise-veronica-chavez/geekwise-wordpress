@@ -38,7 +38,7 @@
       
     
               <div class="want_to">
-                  <a href="#" id="want_to"></a>
+                  <a href="#" id="want_to">want to geekwise? sign-up today</a>
             </div>
         </main>
         

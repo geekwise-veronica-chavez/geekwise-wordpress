@@ -1,74 +1,50 @@
 <?php /* Template Name: cohort */ ?>
 <?php get_header('cohort'); ?>
  <main class="cohort_main">
-    <?php if (have_posts()) : ?>
-            <?php while (have_posts()) : the_post(); ?>
-            <?php the_content(); ?>
-            <?php endwhile; ?>
-            <?php endif; ?>
-            
+  
+            <?php query_posts('post_type=geekwise_cohort'); ?>
+                    
+         <?php while (have_posts()) : the_post(); ?>    
         <section class="cohort_top">
-           <h1 class="cohort_question"> </h1>
-           <p class="paragraph"> </p>
-            <p class="paragragh"></p>
-                <span class="goals"></span>
-                <li class="info_goals"></li></li>
-                <li class="info_goals"></li>
-                <li  class="info_goals"></li>
-                <li  class="info_goals"></li>
-                <li  class="info_goals"></li>
-                <span class="goals"></span>
+       
+           <h1 class="cohort_question"><?php the_field('question'); ?></h1>
+           <p class="paragraph"><?php the_field('para'); ?></p>
+            <p class="paragragh"><?php the_field('para2'); ?></p>
+            
+          
+                <span class="goals"><?php the_field('goal_start'); ?> </span>
+                <ol>
+                <li class="info_goals"><?php the_field('one'); ?></li>
+                <li class="info_goals"><?php the_field('two'); ?></li>
+                <li  class="info_goals"><?php the_field('three'); ?></li>
+                <li  class="info_goals"><?php the_field('four'); ?></li>
+                <li  class="info_goals"><?php the_field('five'); ?></li>
+                <span class="goals"><?php the_field('goal_end'); ?></span>
+               
             </ol>
-        </section>
+        
+       </section>
+            <?php endwhile; ?>
     </main>
+    
     <section class="cohort_members">
-       <h1 id="members_text"></h1>
+       <h1 id="members_text">Meet the Geekwise Academy Cohort Classes!</h1>
      
            <div class="dropdown_bar">
                <label for="cohort_data" class="class_members" >
-                   <i class="fa fa-angle-down down_angle"></i> </label>
+                   <i class="fa fa-angle-down down_angle"></i> Cohort Class 2 (July 2015 - January 2016) </label>
                   <input type="checkbox" id="cohort_data">
                <div class="group_bar first_class">
+                
+        
               <div class="class2">
-                 <img src="http://i.imgur.com/vCqotav.jpg" alt="adam" class="photos_cohort">
-                  <h1 class="name"></h1>
-                  <p class="story"> </p>
+                <?php while (have_posts()) : the_post(); ?> 
+                 <div class="photos_cohort"><?php the_post_thumbnail(); ?></div>
+                  <h1 class="name"><?php the_field('name'); ?></h1>
+                  <p class="story"><?php the_field('story'); ?> </p>
+                    <?php endwhile; ?>
               </div>
-              <div class="class2">
-                  <img src="http://i.imgur.com/fnM2yAw.jpg" alt="name" class="photos_cohort">
-                  <h1 class="name"></h1>
-                  <p class="story"></p>
-              </div>
-              <div class="class2">
-                  <img src="http://i.imgur.com/NvTPypP.jpg" alt="name" class="photos_cohort">
-                  <h1 class="name"></h1>
-                  <p class="story"></p>
-              </div>
-              <div class="class2">
-                  <img src="http://i.imgur.com/CSLT436.jpg" alt="name" class="photos_cohort">
-                  <h1 class="name"></h1>
-                  <p class="story"></p>
-              </div>
-              <div class="class2">
-                  <img src="http://i.imgur.com/j4mcOvq.jpg" alt="name" class="photos_cohort">
-                  <h1 class="name"></h1>
-                  <p class="story"></p>
-              </div>
-              <div class="class2">
-                  <img src="http://i.imgur.com/PNItmN0.jpg" alt="name" class="photos_cohort">
-                  <h1 class="name"></h1>
-                  <p class="story"></p>
-              </div>
-              <div class="class2">
-                  <img src="http://i.imgur.com/kplKRIR.jpg" alt="name" class="photos_cohort">
-                  <h1 class="name"></h1>
-                  <p class="story"></p>
-              </div>
-              <div class="class2">
-                  <img src="http://i.imgur.com/v0nUtY8.jpg" alt="name" class="photos_cohort">
-                  <h1 class="name"></h1>
-                  <p class="story"></p>
-              </div>
+            
            </div>
        
        <div class="dropdown_bar">

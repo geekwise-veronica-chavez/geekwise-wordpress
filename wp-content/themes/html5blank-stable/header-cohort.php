@@ -10,49 +10,46 @@
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
         <?php wp_head(); ?>
     </head>
-<!--      <nav class="nav flex cohort_nav" role="navigation">-->
-<!--	<?php html5blank_nav(); ?>-->
-<!--</nav>-->
-<body class=" last_page">
-<label for="dropdown" class="label_main">
+      <div class="owl_upsidedown"></div> 
+    
+<body class='white_cohort'>
+
+    <label for="dropdown" class="label_main">
     <i class="fa fa-bars"></i>  
         </label>
-       
-     <div class="owl_upsidedown"></div>  
-      <header class="white-bg">
-           
-       
-      
-             <nav class="flex cohort_nav">
-               <a href="/index.php?page_id=6"><img src="http://i.imgur.com/njOmOON.png" alt="geekwise sm" class="geekwise_cohort"
-           class:logo_geek></a>
-               <input type="checkbox" id="dropdown">
-                <ul class="main_bar margin_right">
-                 <li class="cohort-li">
-                     <a href="/index.php?page_id=7" class="main2">about</a>
+        
+     <header class="cohort_header">
+       <a href="/index.php?page_id=6"><img src="http://i.imgur.com/njOmOON.png" alt="geekwise sm" class="geekwise_sm logo_gk"></a>
+       <input type="checkbox" id="dropdown">
+        <div class="nav_main_bar">
+             <nav class="flex">
+                 <a href="index.html" class="small_gk"><img src="http://i.imgur.com/njOmOON.png" alt="geekwise sm" class="geekwise_sm_course"></a>
+                <ul class="main_bar">
+                 <li class="li">
+                     <a href="/index.php?page_id=7" class="main_team_crud">about</a>
                  </li>
-                 <li class="cohort-li">
-                     <a href="/index.php?page_id=8" class="main2">course</a>
+                 <li class="li">
+                     <a href="/index.php?page_id=8" class="main_team_crud">course</a>
                  </li>
-                 <li class="cohort-li">
-                     <a href="/index.php?page_id=16" class="main2">workshops</a>
+                 <li class="li">
+                     <a href="/index.php?page_id=16" class="main_team_crud">workshops</a>
                  </li>
-                 <li class="cohort-li">
-                     <a href="/index.php?page_id=10" class="main2">cohort</a>
+                 <li class="li">
+                     <a href="/index.php?page_id=10" class="main_team_crud">cohort</a>
                  </li>
                 
-                 <li class="cohort-li">
-                     <a href="/index.php?page_id=14" class="main2">team</a>
+                 <li class="li">
+                     <a href="/index.php?page_id=14" class="main_team_crud">team</a>
                  </li>
-                 <li class="cohort-li">
-                     <a href="/index.php?page_id=18" class="main2">contact</a>
+                 <li class="li">
+                     <a href="/index.php?page_id=18" class="main_team_crud">contact</a>
                  </li>
-                  <li class="cohort-sign">
-                     <a href="/index.php?page_id=12" class="co-sign">signup</a>
+                  <li class="yellow_sign li sign_display">
+                     <a href="/index.php?page_id=12" class="course_sign">signup</a>
                  </li>
              </ul>   
          </nav>
-        
           
-     </header>    
-        
+         </div>
+         
+     </header> 

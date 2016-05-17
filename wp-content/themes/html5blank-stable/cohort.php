@@ -1,6 +1,6 @@
 <?php /* Template Name: cohort */ ?>
 <?php get_header('cohort'); ?>
- <main class="cohort_main">
+ <main class="cohort_main_crud">
   
            
         <section class="cohort_top">

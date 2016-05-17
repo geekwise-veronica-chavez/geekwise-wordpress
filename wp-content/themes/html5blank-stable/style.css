@@ -1230,12 +1230,20 @@ u{
     padding-top: 10px;
 }
 /*cohort css page*/
+.white_cohort{
+    background-color: #fff;
+}
+.cohort_header{
+    width: 85%;
+    margin:auto;
+    
+}
 .last_page{
     background-color: #fff;
 }
 
 .cohort_nav{
-    width: 80%;
+    width: 70%;
     position: relative;
     top: -180px;
     
@@ -1267,7 +1275,7 @@ u{
 }
 .white-bg{
     margin: auto;
-    width: 85%;
+    width: 70%;
     height: 50px;
     
 }
@@ -1289,16 +1297,18 @@ u{
     float: none;
 }
 
-.cohort_main{
-    width: 75%;
+.cohort_main_crud{
+    width: 80%;
     padding: 0;
     margin: auto;
     padding-top: 20px;
+    background-color: #fff;
 }
 .cohort_top{
     width: 100%;
     font-size: 15px;
     text-align: left;
+    background-color: #fff;
     
     
 }

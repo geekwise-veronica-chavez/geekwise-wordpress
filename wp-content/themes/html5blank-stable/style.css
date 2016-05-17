@@ -1357,6 +1357,7 @@ ol{
     padding: 8px;
     cursor: pointer;
     position: relative;
+    text-align: left;
     
     
 }
@@ -1399,16 +1400,17 @@ input[]:checked ~ .class2 {
     width:200px;
 }
 
-.class2{
-    width: 20%;
+.class2_crud{
+    width: 25%;
     height: 400px;
     text-align: center;
     padding: 15px;
     float: left;
 }
 
-.name{
-    font-size: 14px;
+.name_crud{
+    font-size: 12px;
+    line-height: -1;
 }
 
 .story{

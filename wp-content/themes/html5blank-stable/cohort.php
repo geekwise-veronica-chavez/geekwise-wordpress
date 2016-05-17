@@ -58,7 +58,7 @@
                   <input type="checkbox" id="cohort_data2">
                   <div class="group_bar">
                    
-         <?php query_posts('post_type=geekwise_cohort_two'); ?>                       
+         <?php query_posts('post_type=geekwsie_cohort_two'); ?>                       
        <?php while (have_posts()) : the_post(); ?> 
                       <div class="class2_crud">
                        

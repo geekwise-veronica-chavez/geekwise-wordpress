@@ -478,6 +478,14 @@ main{
     margin: 40px auto 0px auto;
     
 }
+.home-text{
+    font-size:45px;
+    font-family: "franchise";
+}
+.home-text2{
+    font-size:40px;
+    font-family: "ciria";
+}
 .quote{
     font-size: 2.5em;
     font-family:"ciria";

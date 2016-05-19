@@ -136,8 +136,8 @@ function html5blank_styles()
     wp_register_style('styleflex', get_template_directory_uri() . '/styleflex.css', array(), '1.0', 'all');
     wp_enqueue_style('styleflex'); // Enqueue it!
     
-    wp_register_style('font', get_template_directory_uri() . '/font.css', array(), '1.0', 'all');
-    wp_enqueue_style('font'); // Enqueue it!
+    wp_register_style('fonts', get_template_directory_uri() . '/fonts.css', array(), '1.0', 'all');
+    wp_enqueue_style('fonts'); // Enqueue it!
 }
 
 // Register HTML5 Blank Navigation

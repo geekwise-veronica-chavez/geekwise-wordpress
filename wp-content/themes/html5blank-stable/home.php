@@ -1,6 +1,6 @@
 <?php /* Template Name:home */ ?>
 <?php get_header( 'home' ); ?>
-
+<link href="//db.onlinewebfonts.com/c/e5f2f90ef20309de329a7d174c3d2245?family=Franchise" rel="stylesheet" type="text/css"/>
  <main class=home_bg>
   
         <div class="image white">

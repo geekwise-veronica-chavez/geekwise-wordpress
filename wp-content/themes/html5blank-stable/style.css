@@ -356,8 +356,8 @@ li{
     font-size: 13px;
     text-transform: uppercase;
     padding: 8px;
-     padding-top: 20px;
-    padding-bottom: 19px;
+     padding-top: 18px;
+    padding-bottom: 18px;
     margin: 0 auto;
     font-family: "lato", sans-serif;
     text-shadow: 0 .4px 0 grey;
@@ -492,8 +492,8 @@ hr{
     width: 50%;
    
 }
-footer{
-    width:100;%;
+.icon_footer{
+    width:100%;
     max-width: 100%;
     margin: auto;
     padding: 0;
@@ -501,26 +501,34 @@ footer{
     background-color: #7a1501;
 }
 .icons{
-    width: 28%;
-    max-width: 35%;
+    width: 30%;
+    max-width: 30%;
     float:left;
     margin-top:25px;
+    margin:auto;
     padding: 10px;
     text-align: center;
     
 }
+.width_footer{
+    width:75%;
+    margin:auto;
+
+    
+}
 /*lines on home page*/
-/*.vertical-line{*/
-/*    margin: 40px 0px 0px 0px;*/
-/*    border-right: 1px solid white;*/
-/*    font-size: .1em;*/
-/*    height: 100px;*/
-/*    overflow: hidden;*/
-/*    width: 1px;*/
-/*    display: inline-block;*/
-/*    vertical-aligmiddle;*/
-/*    float: left;*/
-/*}*/
+.vertical{
+    /*margin:20px 0px 0px 0px;*/
+    /*font-size:.1em;*/
+    height:100px;
+    overflow: hidden;
+    width:.1px;
+    display:inline-block;
+    vertical-align:middle;
+    float:right;
+    position:relative;
+    top:-80px;
+}
 
 .align-right{
     float: right;

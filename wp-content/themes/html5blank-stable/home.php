@@ -18,28 +18,21 @@
              <!--<hr>-->
         </div>
      </main>
-     <footer>
-            <div class="icons border_left">
+     <footer class='icon_footer'>
+      <div class="width_footer">
+       <?php query_posts('post_type=geekwise_home'); ?>
+                    
+                        <?php while (have_posts()) : the_post(); ?>
+            <div class="icons">
                     <a href="indexcourse.html" class="bottom_link">
                   
-                 <div class="media">
-                 </div>
+                 <div class="media"><?php the_post_thumbnail(); ?> <br> <?php the_field('icons'); ?> </div>
                     </a>
+            <?php the_content(); ?>
             </div>
-            <div class="vertical-line"></div>
-          <div class="icons puzzle">
-                  <a href="indexsignin.html" class="bottom_link">
-                 
-               <div class="media">
-               </div>
-                   </a>
-        </div>
-         <div class="vertical-line"></div>
-         <div class="icons align-right">
-                <a href="indexabout.html" class="bottom_link">
-               
-             <div class="media">
-             </div>
-                 </a>
-        </div> 
+               <?php endwhile; ?>
+           
+         </div>
+        
+      
      </footer>

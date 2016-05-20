@@ -51,11 +51,12 @@ img {
 	vertical-align:bottom;
 }
 a {
-	color:#444;
+	color:#000;
 	text-decoration:none;
+
 }
 a:hover {
-	color:#444;
+	color:#7a1501;
 }
 a:focus {
 	outline:0;
@@ -482,12 +483,14 @@ main{
     
 }
 .home-text{
-    font-size:45px;
+    font-size:38px;
     font-family: "franchise";
+    margin: 0;
 }
 .home-text2{
     font-size:40px;
     font-family: "ciria";
+    margin:0;
 }
 .quote{
     font-size: 2.5em;
@@ -1102,7 +1105,7 @@ u{
 }
 .contact_info{
     width: 177px;
-    height: 250px;
+    height: 160px;
     background-color: #fff;
     font-size: 14px;
     text-align: center;
@@ -1116,7 +1119,7 @@ u{
     font-family: fantasy;
 }
 #terry{
-    padding-top: 55px;
+    padding-top: 15px;
     color: #7a1501;
     text-decoration: none;
 }
@@ -1124,7 +1127,9 @@ u{
     padding: 15px;
      text-decoration: none;
 }
-.
+.contact_top{
+    /*background-color: #7a1501;*/
+}
 
 @media only screen and (max-width:30rem){
     

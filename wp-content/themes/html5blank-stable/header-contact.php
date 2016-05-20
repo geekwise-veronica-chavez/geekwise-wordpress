@@ -20,8 +20,8 @@
      <header class="team_header">
        <a href="/index.php?page_id=6"><img src="http://i.imgur.com/njOmOON.png" alt="geekwise sm" class="geekwise_sm logo_gk"></a>
        <input type="checkbox" id="dropdown">
-        <div class="nav_main_bar">
-             <nav class="flex">
+        <div class="nav_main_bar contact_top">
+             <nav class="flex contact_top">
                  <a href="index.html" class="small_gk"><img src="http://i.imgur.com/njOmOON.png" alt="geekwise sm" class="geekwise_sm_course"></a>
                 <ul class="main_bar">
                  <li class="li">

@@ -1,6 +1,6 @@
  <?php /* Template Name: about */ ?>
  <?php get_header( 'about' ); ?>
- 
+ <link href='http://fonts.googleapis.com/css?family=Lato&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
  <div class="img_owl">
        <?php if (have_posts()) : ?>
             <?php while (have_posts()) : the_post(); ?>

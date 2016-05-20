@@ -374,6 +374,9 @@ li{
     color: black;
     text-decoration: none;
 }
+.home_li:hover{
+    color:#7a1501;
+}
 .main{
     color: black;
     text-decoration: none;
@@ -475,7 +478,7 @@ main{
     text-transform: uppercase;
     margin: 0;
     font-family: "franchise";
-    margin: 40px auto 0px auto;
+    margin: 20px auto 0px auto;
     
 }
 .home-text{
@@ -519,8 +522,9 @@ hr{
     
 }
 .width_footer{
-    width:75%;
+    width:85%;
     margin:auto;
+    margin-left: 160px;
 
     
 }

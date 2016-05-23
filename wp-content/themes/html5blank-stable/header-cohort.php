@@ -19,12 +19,15 @@
         </label>
         
      <header class="cohort_header">
-       <a href="/index.php?page_id=6"><img src="http://i.imgur.com/njOmOON.png" alt="geekwise sm" class="geekwise_sm logo_gk"></a>
-       <input type="checkbox" id="dropdown">
-        <div class="nav_main_bar">
+      
              <nav class="flex">
-                 <a href="index.html" class="small_gk"><img src="http://i.imgur.com/njOmOON.png" alt="geekwise sm" class="geekwise_sm_course"></a>
+                  <a href="/index.php?page_id=6">
+        <img src="http://i.imgur.com/njOmOON.png" alt="geekwise sm">
+        </a>
                 <ul class="main_bar">
+                     <input type="checkbox" id="dropdown">
+        <div class="nav_main_bar"> <input type="checkbox" id="dropdown">
+        <div class="nav_main_bar">
                  <li class="li">
                      <a href="/index.php?page_id=7" class="main_team_crud">about</a>
                  </li>

@@ -29,13 +29,17 @@
     <i class="fa fa-bars"></i>  
         </label>
         
+   
      <header class="red-bg">
-       <a href="/index.php?page_id=6"><img src="http://i.imgur.com/njOmOON.png" alt="geekwise sm" class="geekwise_sm logo_gk"></a>
+     
        <input type="checkbox" id="dropdown">
         <div class="nav_main_bar course_nav">
              <nav class="flex2">
-                 <a href="index.html" class="small_gk"><img src="http://i.imgur.com/njOmOON.png" alt="geekwise sm" class="geekwise_sm_course"></a>
+                    <a href="/index.php?page_id=6">
+               <img src="http://i.imgur.com/njOmOON.png" alt="geekwise sm" class="header_image_contact">
+               </a>  
                 <ul class="course_ul">
+                
                  <li class="li">
                      <a href="/index.php?page_id=7" class="course_li">about</a>
                  </li>

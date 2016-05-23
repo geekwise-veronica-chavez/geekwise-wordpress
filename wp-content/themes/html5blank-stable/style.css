@@ -788,10 +788,10 @@ hr{
     width: 90%;
 }
 
-.small_gk{
-    float: left;
-    margin-right: 85px;
-}
+/*.small_gk{*/
+/*    float: left;*/
+/*    margin-right: 85px;*/
+/*}*/
 .course{
     color:#fff; 
    
@@ -1254,6 +1254,14 @@ u{
     text-align: center;
     padding-top: 10px;
 }
+
+/*crud wp sign in*/
+.white_sign{
+    background-color: #fff;
+}
+.course_li_sign{
+    color:black;
+}
 /*cohort css page*/
 .white_cohort{
     background-color: #fff;
@@ -1708,7 +1716,7 @@ input[]:checked ~ .class2 {
  /*team crud page */
  
  .main_team_crud{
-     color black;
+     color: black;
      
      
  }
@@ -1718,4 +1726,20 @@ input[]:checked ~ .class2 {
  }
 .team_header{
     background-color: #fff;
+}
+
+/*crud header_image css*/
+.header_image_contact{
+   float: left;
+
+}
+.header_image_sign{
+    float:left;
+    margin-left: 30px;
+    margin-top: 5px;
+}
+.header_image_workshop{
+    float: left;
+    position: relative;
+    left: 120px;
 }

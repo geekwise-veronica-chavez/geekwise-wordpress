@@ -24,42 +24,50 @@
 
 	</head>
 	<body class="course-page">
-
-    <label for="dropdown" class="label_main">
-    <i class="fa fa-bars"></i>  
-        </label>
-        
-     <header class="red-bg">
-       <a href="/index.php?page_id=6"><img src="http://i.imgur.com/njOmOON.png" alt="geekwise sm" class="geekwise_sm logo_gk"></a>
-       <input type="checkbox" id="dropdown">
-        <div class="nav_main_bar course_nav">
-             <nav class="flex2">
-                 <a href="index.html" class="small_gk"><img src="http://i.imgur.com/njOmOON.png" alt="geekwise sm" class="geekwise_sm_course"></a>
-                <ul class="course_ul">
-                 <li class="li">
-                     <a href="/index.php?page_id=7" class="course_li">about</a>
-                 </li>
-                 <li class="li">
-                     <a href="/index.php?page_id=8" class=" yellow">course</a>
-                 </li>
-                 <li class="li">
-                     <a href="/index.php?page_id=16" class="course_li">workshops</a>
-                 </li>
-                 <li class="li">
-                     <a href="/index.php?page_id=10" class="course_li">cohort</a>
-                 </li>
+ <header>
+          <section class="about_header"> 
+               
+                 <label for="dropdown" class="about-label">
+                <i class="fa fa-bars"></i>
+               </label>
+    <nav class="nav_about">
+        <a href="/index.php?page_id=6">
+               <img src="http://i.imgur.com/njOmOON.png" alt="geekwise sm" class="header_image_sign">
+               </a>
+        <ul class="flexbox">
+            <input type="checkbox" id="dropdown">
+    <div class="nav_div">       
+                <li class="flex-li">
+                    <a href="/index.php?page_id=7" class=".yellow_about_crud">about
+                    </a>
+                </li>
+                <li class="flex-li">
+                     <a href="/index.php?page_id=8" class=".main_li_crud">course
+                     </a>
+                </li>
+                <li class="flex-li">
+                     <a href="/index.php?page_id=16" class=".main_li_crud">workshops
+                     </a>
+                </li>
+                 <li class="flex-li">
+                     <a href="/index.php?page_id=10" class=".main_li_crud">cohort
+                     </a>
+                </li>
+                <li class="flex-li">
+                     <a href="/index.php?page_id=14" class=".main_li_crud">team
+                     </a>
+                </li>
+                <li class="flex-li">
+                    <a href="/index.php?page_id=18" class=".main_li_crud">contact
+                    </a>
+                </li> 
                 
-                 <li class="li">
-                     <a href="/index.php?page_id=14" class="course_li">team</a>
-                 </li>
-                 <li class="li">
-                     <a href="/index.php?page_id=18" class="course_li">contact</a>
-                 </li>
-                 
-             </ul>   
-         </nav>
-         </div>
-         
-     </header> 
+    </div>
+        </ul>
+
+    </nav>
+            
+</section>
+        </header>
   
     

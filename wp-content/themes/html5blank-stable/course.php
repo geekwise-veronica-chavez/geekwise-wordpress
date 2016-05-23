@@ -1,7 +1,8 @@
 <?php /* Template Name: course*/ ?>
 <?php get_header('course'); ?>
  <main class=crud_course>
-  
+             <div class='stem'><a href="#" class='stem_click'>Click here to checkout our STEM Summer Programs!</a></div>
+
             <article class="course_info">
                 Geekwise Academy Courses are super-fast-paced and specifically designed to ensure that you’re learning what we’re teaching. Each course begins with a crash course in “How to Geekwise,” which will give you strategies for getting every ounce of benefit you can out of your Geekwise Academy experience. Geekwise Academy Courses deploy a social learning process that is intended to provide you with workplace communication training to go alongside the technology skill you signed up for. Courses include regular assessments to evaluate your progress and to make sure no one gets left behind. Finally, each course wraps up with a final project that is actual real world work.
             </article>
@@ -21,6 +22,7 @@
                     
                         <?php while (have_posts()) : the_post(); ?>  
                      <tr class="class_crud">
+                       
                          <td class="topic_crud"><?php the_title(); ?><?php the_content(); ?></td>
                         <td class="duration"><?php the_field('duration'); ?></td>
                         <td class="time"><?php the_field('date'); ?></td>

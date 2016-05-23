@@ -2,8 +2,8 @@
 <?php get_header( 'workshop'); ?>
 
  <main class="main_workshop_crud">
-  
-   
+             <div class='stem'><a href="#" class='stem_click'>Click here to checkout our STEM Summer Programs!</a></div>
+
            <?php query_posts('post_type=geekwise_workshop'); ?>
                     
            <?php while (have_posts()) : the_post(); ?>  

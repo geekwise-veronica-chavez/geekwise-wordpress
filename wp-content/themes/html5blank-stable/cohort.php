@@ -9,21 +9,7 @@
         <?php the_content(); ?>
           <?php endwhile; ?>
           
-           <!--<h1 class="cohort_question"></h1>-->
-           <!--<p class="paragraph"></p>-->
-           <!-- <p class="paragragh"></p>-->
-            
-          
-           <!--     <span class="goals"><?php the_field('goal_start'); ?> </span>-->
-           <!--     <ol>-->
-           <!--     <li class="info_goals"><?php the_field('one'); ?></li>-->
-           <!--     <li class="info_goals"><?php the_field('two'); ?></li>-->
-           <!--     <li  class="info_goals"><?php the_field('three'); ?></li>-->
-           <!--     <li  class="info_goals"><?php the_field('four'); ?></li>-->
-           <!--     <li  class="info_goals"><?php the_field('five'); ?></li>-->
-           <!--     <span class="goals"><?php the_field('goal_end'); ?></span>-->
-               
-           <!-- </ol>-->
+   
         
        </section>
           

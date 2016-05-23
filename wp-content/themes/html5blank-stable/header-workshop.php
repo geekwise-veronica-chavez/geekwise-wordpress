@@ -51,9 +51,9 @@
                  </li>
              </ul>   
          </nav>
-           <div class="course_quote"> NO FLUFF. WE TEACH SKILLS THAT YOU CAN USE TO MAKE MONEY.</div>
+           <div class="course_quote2"> NO FLUFF. WE TEACH SKILLS THAT YOU CAN USE TO MAKE MONEY.</div>
          </div>
          
      </header> 
+     
        
-        

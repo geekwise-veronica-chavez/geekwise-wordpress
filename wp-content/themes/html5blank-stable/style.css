@@ -848,7 +848,7 @@ hr{
 }
 .main_course{
     width: 85%;
-    font-family: "lato", sans-serif;
+    font-family: "lato";
 }
 .course_info{
     width: 70%;
@@ -874,13 +874,14 @@ hr{
 .top_table{
     font-size: 14px; 
     width: 100%;
-    font-weight: 200;
     border-bottom: solid lightgrey 2px;
 }
 
 #instructor{
     text-align: left;
     padding: 10px;
+    font-weight: 600;
+  
     
 }
 #time{
@@ -899,34 +900,44 @@ u{
 .duration{
     margin: 0;
     padding: 5px;
-    width: 40px;
-    font-size: 13px;
+    width: 43px;
+    font-size: 12px;
+    text-align: left;
+    padding-bottom: 20px;
     
 }
 .time{
-    width: 10px;
+    width: 8px;
     text-align: left;
-    padding-left: 15px;
+    padding-left: 18px;
+    text-align: left;
 }
 .fee{
     width: 50px;
     padding: 15px;
+    text-align: left;
+    padding-bottom: 30px;
 }
 .instruction{
-    text-align: center;
+    text-align:left;
     width: 20px;
     margin: 0;
-    padding-left: 15px;
+    padding-left: 10px;
+    padding-bottom: 60px;
 }
 
 .enroll_sign{
-    padding: 8px;
-    padding-top: 15px;
-    padding-bottom: 15px;
+    padding: 12px;
+    padding-top: 20px;
+    padding-bottom: 20px;
     background-color: #f9da0c;
     text-decoration: none;
     text-transform: uppercase;
     color: black;
+    font-family: 700;
+}
+.enroll{
+    padding-bottom: 28px;
 }
 /*media query begin for course page*/
 @media only screen and (max-width:1180px){
@@ -1670,10 +1681,13 @@ input[]:checked ~ .class2 {
 /*crud css page*/
 .crud_course{
     background-color: #fff;
-    height: 650px;
+    height: auto;
 }
 .topic_crud{
     text-align:left;
+    font-size: 12px;
+    font-family: "lato", sans-serif;
+    font-style: italic;
     
 }
 
@@ -1688,6 +1702,7 @@ input[]:checked ~ .class2 {
     width: 70%;
     margin:auto;
     margin-top: 30px;
+    height: 50px;
    
 }
 .footer_crud{
@@ -1698,6 +1713,8 @@ input[]:checked ~ .class2 {
     color: black;
     margin: auto;
     text-align: center;
+    font-weight: bold;
+    font-family: "lato", sans-serif;
    
    
 }
@@ -1791,5 +1808,11 @@ ol{
     text-align: left;
     margin: auto;
     font-size:14px;
+    letter-spacing: -1px
+}
+.work_header{
     letter-spacing: -1px;
+    font-size:14.5px;
+    font-family: "franchise";
+    font-weight: bold;
 }

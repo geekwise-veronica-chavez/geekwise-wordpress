@@ -23,15 +23,15 @@
                         <?php while (have_posts()) : the_post(); ?>  
                      <tr class="class_crud">
                        
-                         <td class="topic_crud"><?php the_title(); ?><?php the_content(); ?></td>
-                        <td class="duration"><?php the_field('duration'); ?></td>
-                        <td class="time"><?php the_field('date'); ?></td>
-                        <td class="fee"><?php the_field('fee'); ?></td>
+                         <td class="topic_crud"><u><?php the_title(); ?></u><?php the_content(); ?></td>
+                        <td class="duration"><b>6 weeks </b><?php the_field('duration'); ?></td>
+                        <td class="time"><b></b> <?php the_field('date'); ?></td>
+                        <td class="fee"><b>$250 </b><br><?php the_field('fee'); ?></td>
                         <td class="instruction"><?php the_field('instructor'); ?></td>
-                         <td class="enroll"><a href="/index.php?page_id=12" class="enroll_sign"><?php the_field('signup'); ?></a></td>
-                        <?php endwhile; ?>
+                         <td class="enroll"><a href="/index.php?page_id=12" class="enroll_sign"><b><?php the_field('signup'); ?></b></a></td>
+                        
                     </tr>
-              
+              <?php endwhile; ?>
                 </table>
             </section>
             <section class="bottom_crud"><a href="/index.php?page_id=12" class="footer_crud">SEATING IS LIMITED, SIGN UP TODAY</a></section>

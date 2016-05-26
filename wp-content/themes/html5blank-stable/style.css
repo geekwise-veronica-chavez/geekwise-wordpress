@@ -30,8 +30,8 @@ html {
 	font-size:62.5%;
 }
 body {
-	font:300 11px/1.4 'Helvetica Neue', Helvetica, Arial, sans-serif;
-	color:black;
+	/*font:300 11px/1.4 'Helvetica Neue', Helvetica, Arial, sans-serif;*/
+	/*color:black;*/
 }
 /* clear */
 .clear:before,
@@ -956,16 +956,41 @@ u{
     }
 }
 @media only screen and (max-width:900px){
-    
-    .geekwise_sm_course{
-        visibility: hidden;
+    .course_ham{
+        font-size:30px;
+        width:30px;
+        margin-top:10px;
+        margin-right:10px;
+        height:30px;
+       
     }
+   .left-margin{
+       margin-right:105px;
+   }
+    
+    
     li{
         text-align: center;
     }
     .sign_display{
         display: none;
     }
+    .crud_course{
+        width: 100%;
+    }
+    .stem{
+        width: 100%;
+    }
+   
+    .course_info{
+        width: 90%;
+    }
+    .section-crud{
+        width: 100%;
+    }
+   .topic_crud{
+       width: 100%;
+   }
     .top_table{
         display: none;
     }
@@ -984,15 +1009,33 @@ u{
     .fee{
         width: 100%;
     }
-    .enrol{
+    .enroll{
         width: 100%
     }
     .course_quote{
-        
+        display:none;
+    }
+    /*.bottom_crud{*/
+    /*    width:100%;*/
+    /*}*/
+    .footer_crud{
+        width:100%;
     }
 }
 
-
+@media only screen and (max-width:400px){
+    .left-margin{
+        margin-right:80px;
+    }
+    .header_image_contact{
+        width:120px;
+    }
+}
+/*@media only screen and (max-width:381px){*/
+/*    .left-margin{*/
+/*        margin-right:60px;*/
+/*    }*/
+/*}*/
 
 
                 /*workshop css page begins*/
@@ -1699,7 +1742,7 @@ input[]:checked ~ .class2 {
      border-bottom: solid lightgrey 2px;
 }
 .bottom_crud{
-    width: 70%;
+    width: 100%;
     margin:auto;
     margin-top: 30px;
     height: 50px;

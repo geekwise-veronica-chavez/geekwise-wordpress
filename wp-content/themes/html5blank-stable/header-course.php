@@ -27,7 +27,7 @@
 	</head>
 	<body class="course-page">
 
-    <label for="dropdown" class="label_main">
+    <label for="dropdown" class="label_main course_ham">
     <i class="fa fa-bars"></i>  
         </label>
         
@@ -43,7 +43,7 @@
                 <ul class="course_ul">
                 
                  <li class="li">
-                     <a href="/index.php?page_id=7" class="course_li">about</a>
+                     <a href="/index.php?page_id=7" class="course_li left-margin">about</a>
                  </li>
                  <li class="li">
                      <a href="/index.php?page_id=8" class=" yellow">course</a>

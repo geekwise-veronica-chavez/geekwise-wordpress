@@ -72,7 +72,7 @@ header{
 .sign-tag{
     list-style: none;
 }
-.highlight{
+.highlight-home{
     padding: 18px 12px 18px 12px;
     background-color: #f9da0c;
     font-family: "lato", sans-serif;
@@ -299,7 +299,7 @@ label{
             width: 100%;
             text-align: center
         }
-        .highlight{
+        .highlight-home{
             position: relative;
             top: -10px;
             
@@ -318,21 +318,28 @@ label{
         main{
             width: 100%;
         }
-        .section_about{
+        .section_about_crud{
             width: 90%;
             padding: 0;
             margin: 0;
+            height: auto;
+        }
+        .main_about_crud{
+            height: 75rem;
         }
        
         
     }
-@media only screen and (max-width:775px){
-    header{
-        height: auto;
-        
-    }
+@media only screen and (max-width:875px){
+     .main_about_crud{
+            height: 80rem;
+        }
+}
+
+
+@media only screen and (max-width:790px){
     
-    .highlight{
+    .highlight-home{
         position: relative;
         top: -240px;
         left: 280px;
@@ -350,11 +357,79 @@ label{
     label{
         margin-right: 50px;
     }
+    .section_about_crud{
+        width: 100%;
+        
+    }
+    .main_about_crud{
+        height: 88rem;
+    }
+    
     
 }
+@media only screen and (max-width:770px){
+    .main_about_crud{
+        height: 95rem;
+    }
+}
+@media only screen and (max-width:646px){
+    .main_about_crud{
+        height: 100rem;
+    }
+}
+@media only screen and (max-width:630px){
+    .main_about_crud{
+        height: 105rem;
+    }
+}
 @media only screen and (max-width:580px){
-    .highlight{
+    .highlight-home{
         position: absolute;
+    }
+}
+@media only screen and (max-width:542px){
+    .main_about_crud{
+        height:108rem;
+}
+}
+@media only screen and (max-width:491px){
+    .main_about_crud{
+        height: 110rem;
+    }
+}
+@media only screen and (max-width:480px){
+        .main_about_crud{
+            height:98rem;
+    }
+}
+@media only screen and (max-width:460px){
+    .main_about_crud{
+        height: 101rem;
+    }
+}
+@media only screen and (max-width:423px){
+    .main_about_crud{
+        height: 105rem;
+    }
+}
+@media only screen and (max-width:415px){
+    .main_about_crud{
+        height: 108rem;
+    }
+}
+@media only screen and (max-width:395px){
+    .main_about_crud{
+        height: 115rem;
+    }
+}
+@media only screen and (max-width:350px){
+    .main_about_crud{
+        height: 118rem;
+    }
+}
+@media only screen and (max-width:340px){
+    .main_about_crud{
+        height: 128rem;
     }
 }
 @media only screen and (max-width:30rem){

@@ -572,10 +572,27 @@ hr{
 .bottom_link{
     text-decoration: none;
 }
+.signup-home{
+     padding: 18px 12px 18px 12px;
+    background-color: #f9da0c;
+    font-family: "lato", sans-serif;
+    color: #7a1501;
+    font-size: 1.1em;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.signup-home:hover{
+      background-color: #f9da0c;
+}
 @media only screen and (max-width:1200px){
     .main_bar{
         width: 80%;
         text-align: center;
+    }
+}
+@media only screen and (max-width:1050px){
+    .main_bar{
+        width: 95%;
     }
 }
 @media only screen and (max-width:1000px){
@@ -588,7 +605,7 @@ hr{
     li{
         display: block;
     }
-    .highlight{
+    .signup-home{
         background-color: #fff;
         
     }
@@ -600,6 +617,9 @@ hr{
     
     .label_main{
         display: block;
+        margin-top: 5px;
+        height: 20px;
+        width: 20px;
     }
     
     
@@ -635,6 +655,14 @@ hr{
         margin-left: 0;
     }
 }
+@media only screen and (max-width:775px){
+    .signup-home{
+         margin:0;
+         position: relative;
+         top:0;
+         left:0;
+    }
+}
 @media only screen and (max-width:730px){
     header{
         height:40%;
@@ -661,13 +689,17 @@ hr{
     footer{
         width: 100%;
         margin: auto;
+    
     }
     .icons{
-        width: 28%; 
+        width: 29%; 
     }
     
     hr{
         width: 85%;
+    }
+    .width_footer{
+     width:100%;   
     }
     
 }

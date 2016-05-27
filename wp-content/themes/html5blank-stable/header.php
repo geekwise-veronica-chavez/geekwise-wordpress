@@ -30,7 +30,7 @@
 		<div class="wrapper">
 
 			<!-- header -->
-			<label for="dropdown" class="label_main">
+			<label for="dropdown" class="label_main ham-main">
     <i class="fa fa-bars"></i>  
         </label>
         
@@ -54,7 +54,7 @@
                  <li class="nav_bar_li">
                      <a href="/index.php?page_id=10" class="home_li">cohort</a>
                  </li>
-                 <li class="highlight">
+                 <li class=" signup-home">
                      <a href="/index.php?page_id=12" class="header_nav nav_signup">signup</a>
                  </li>
                  <li class="nav_bar_li">

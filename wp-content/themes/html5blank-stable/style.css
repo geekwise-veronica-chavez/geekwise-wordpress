@@ -413,20 +413,12 @@ li{
     margin-right: 5px;
     margin-top: 5px;
     border-radius: 5px;
-    border: .5px solid lightgrey;
     display: none;
 
 }
 
-.fa{
-    color: grey;
 
-}
-.label_main:hover{
-    background-color: lightgrey;
-    color: #fff;
-    
-}
+
 #dropdown{
     float: left;
     display: none;
@@ -639,9 +631,10 @@ hr{
    
     .fa{
         color:grey;
+        margin-right: 5px;
     }
     .fa:hover{
-        color: #fff;
+        color: lightgrey;
     }
     
     footer{
@@ -1018,7 +1011,7 @@ u{
         width: 90%;
     }
     .section-crud{
-        width: 100%;
+        width: 90% !important;
     }
    .topic_crud{
        width: 100%;
@@ -1042,7 +1035,7 @@ u{
         width: 100%;
     }
     .enroll{
-        width: 100%
+        width: 100%;
     }
     .course_quote{
         display:none;
@@ -1070,7 +1063,7 @@ u{
 /*}*/
 
 
-                /*workshop css page begins*/
+                                       /*workshop css page begins*/
 .main_workshop{
     width: 100%;
     margin: 0;
@@ -1115,6 +1108,52 @@ u{
     padding: 10px;
     background-color: #f9da0c;
     font-weight: bold;
+}
+.header_image_workshop{
+    float: left;
+    position: relative;
+    left: 120px;
+}
+@media only screen and (max-width:1100px){
+  .header_image_workshop{
+     position: relative;
+      left:90px;  
+    }
+}
+@media only screen and (max-width:975px){
+    .header_image_workshop{
+        position: relative;
+        left:70px;
+    }
+}
+@media only screen and (max-width:900px){
+    .course_quote2{
+        display: none;
+    }
+    .nav_media{
+        padding-bottom: 40px;
+        padding-top: 10px;
+    }
+    .work_li{
+        padding-right: 112px; 
+    }
+}
+@media only screen and (max-width:580px){
+    .header_image_workshop{
+        position: relative;
+        left: 40px;
+    }
+}
+@media only screen and (max-width:380px){
+    .header_image_workshop{
+        position: relative;
+        left: 0px;
+    }
+    .work_li{
+       margin-top: 30px;
+       padding-right: 10px;
+       
+    }
 }
 
 /*team page css*/
@@ -1167,6 +1206,7 @@ u{
 .photo_name:hover{
     opacity: 1;
 }
+
 @media only screen and (max-width:50rem){
     .team_geek{
         width: 100%;
@@ -1830,11 +1870,7 @@ input[]:checked ~ .class2 {
     margin-left: 30px;
     margin-top: 5px;
 }
-.header_image_workshop{
-    float: left;
-    position: relative;
-    left: 120px;
-}
+
 .paragraph{
     font-weight: bold;
     

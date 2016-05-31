@@ -20,14 +20,14 @@
         </label>
         
      <header class="red-bg">
-        <nav class="flex2">
-                  <a href="/index.php?page_id=6">
-        <img src="http://i.imgur.com/njOmOON.png" alt="geekwise sm" class='header_image_workshop'>
-        </a> 
+        <nav class="flex2 nav_media">
+            <a href="/index.php?page_id=6">
+            <img src="http://i.imgur.com/njOmOON.png" alt="geekwise sm" class='header_image_workshop'>
+            </a> 
                 <ul class="course_ul">
                     <input type="checkbox" id="dropdown">
-        <div class="nav_main_bar course_nav">
-                 <li class="li">
+        <div class="nav_main_bar course_nav workshop_header">
+                 <li class="li work_li">
                      <a href="/index.php?page_id=7" class="course_li">about</a>
                  </li>
                  <li class="li">

@@ -1679,7 +1679,11 @@ ol{
    .cohort_flex_ul{
        width: 100%;
    }
-   
+   .fa.down_angle{
+       border:none;
+       margin:0;
+       right: 0;
+   }
     .class2_crud{
         width:100%;
         

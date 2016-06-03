@@ -20,7 +20,7 @@
                <a href="/index.php?page_id=6">
                <img src="http://i.imgur.com/njOmOON.png" alt="geekwise sm" class="cohort_logo">
                </a>
-                 <label for="dropdown" class="cohort-label">
+                 <label for="dropdown" class="label_main">
                 <i class="fa fa-bars"></i>
                </label>
     <nav class="flex cohort_nav">

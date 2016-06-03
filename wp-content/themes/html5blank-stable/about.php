@@ -27,12 +27,29 @@
 
                     <h1><?php the_title(); ?><?php the_content(); ?></h1>
                     <p class="about"><?php the_field('what'); ?></p>
-                
+                    
+
+
+
+
+                    
+                   
+                    
                  
                 </div>
              
                 
                <?php endwhile; ?>
+               
+               <div class="about_what" id="about">
+                   <h1>DETAILS</h1>
+               <p class="about"> 
+                    <p><u> Length:</u>Each course lasts 6 weeks</p>
+                     <p><u>Time:</u> Each course meets from 6:00-9:00p, two nights per week</p>
+                      <p><u>Location:</u> All Classes meet at Bitwise Mural District (2210 San Joaquin St., Fresno, CA 93721)</p>
+                    <p><u>Cost:</u> Each class costs only $250</p>
+                        </p>
+                </div>
             </section>
                
       

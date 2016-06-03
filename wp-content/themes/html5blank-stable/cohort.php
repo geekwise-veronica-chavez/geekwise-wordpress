@@ -4,10 +4,10 @@
   
            
         <section class="cohort_top">
-             <?php query_posts('post_type=geekwise_cohort'); ?> 
-           <?php while (have_posts()) : the_post(); ?> 
-        <?php the_content(); ?>
-          <?php endwhile; ?>
+        <!--     <?php query_posts('post_type=geekwise_cohort'); ?> -->
+        <!--   <?php while (have_posts()) : the_post(); ?> -->
+        <!--<?php the_content(); ?>-->
+        <!--  <?php endwhile; ?>-->
           
    
         
@@ -48,7 +48,7 @@
        <?php while (have_posts()) : the_post(); ?> 
                       <div class="class2_crud">
                        
-                          <div class="photos_cohort"><?php the_post_thumbnail(); ?></div>
+                          <div class="photos_cohort  small_img_cohort"><?php the_post_thumbnail(); ?></div>
                           <h1 class="name"><?php the_field('name2'); ?></h1>
                           <p class="story"><?php the_field('description2'); ?></p>
                       </div>

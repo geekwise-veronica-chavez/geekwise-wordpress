@@ -21,7 +21,7 @@
    
              <nav class="flex">
                      <a href="/index.php?page_id=6">
-               <img src="http://i.imgur.com/njOmOON.png" alt="geekwise sm" >
+               <img src="http://i.imgur.com/njOmOON.png" alt="geekwise sm">
                </a>
                 <ul class="main_bar">
                     <input type="checkbox" id="dropdown">

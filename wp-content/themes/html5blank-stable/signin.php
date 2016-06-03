@@ -6,7 +6,7 @@
         <section class="sign_middle">
          
                     
-               <p class="sign_top">Course Selection & Enrollment</p>
+               <p class="sign_top">Workshop selection and enrollment</p>
                 <?php query_posts('post_type=geekwise_signup'); ?>
                     
                         <?php while (have_posts()) : the_post(); ?> 

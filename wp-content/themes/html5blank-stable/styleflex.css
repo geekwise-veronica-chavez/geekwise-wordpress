@@ -169,7 +169,7 @@ h1{
 #dropdown{
     display: none;
 }
-label{
+.about-label{
     display: none;
 }
 
@@ -257,7 +257,7 @@ label{
        
           
     }
-    label{
+    about-label{
         margin-right: 15px;
     }
     
@@ -354,7 +354,7 @@ label{
     #want_to{
         
     }
-    label{
+    about-label{
         margin-right: 50px;
     }
     .section_about_crud{
@@ -454,7 +454,7 @@ label{
 
         
     }
-    label{
+    about-label{
         margin-right: 0px;
     }
     .section_about{

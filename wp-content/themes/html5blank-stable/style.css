@@ -46,6 +46,7 @@ body {
 .clear {
     *zoom:1;
 }
+/*inheriting wrong css for all images */
 img {
 	max-width:100%;
 	vertical-align:bottom;
@@ -329,7 +330,7 @@ header{
 }
 
 .flex{
-    display: -webkit-flex;
+    /*display: -webkit-flex;*/
     display: flex;
     -webkit-align-item:stretch;
     align-items: stretch;
@@ -612,6 +613,7 @@ hr{
         margin-top: 5px;
         height: 20px;
         width: 20px;
+        padding-right: 30px;
     }
     
     
@@ -632,9 +634,19 @@ hr{
     .fa{
         color:grey;
         margin-right: 5px;
-    }
+        border: solid 1px #dddddd;
+        padding: 5px;
+        border-radius: 5px;
+        height: 35px;
+        width: 45px;
+        margin-right: 0;
+        position: relative;
+        right: 25px;
+       
+}
+    
     .fa:hover{
-        color: lightgrey;
+       background-color: lightgrey;
     }
     
     footer{
@@ -1393,8 +1405,9 @@ u{
     background-color: #fff;
 }
 .cohort_header{
-    width: 85%;
+    width: 70%;
     margin:auto;
+    height:100px; 
     
 }
 .last_page{
@@ -1402,18 +1415,39 @@ u{
 }
 
 .cohort_nav{
-    width: 70%;
-    position: relative;
-    top: -180px;
-    
-
+    width: 80%;
+ 
+}
+.cohort_flex_ul{
+    width: 100%;
+    margin: 0;
+    text-align: center;
+}
+.cohort_bar{
+    width: 90%;
+    padding-top: 5px;
+}
+.cohort_logo{
+   padding:10px;
+   
+   float: left;
 }
 .margin_right{
     width: 75%;
    
 }
-.cohort-li{
-    width:
+.flex_li_cohort{
+    display: inline-flex;
+    width: 13%;
+    -webkit-flex:center;
+    justify-content:center;
+    font-size: 16px;
+    text-transform: uppercase;
+    padding-top: 20px;
+    padding-right: 5px;
+    font-weight: bold;
+    font-family: "lato", sans-serif;
+    font-size: 13px;
 }
 .cohort-li:hover{
     background-color: #f9da0c;
@@ -1438,15 +1472,19 @@ u{
     height: 50px;
     
 }
-.owl_upsidedown{
-    margin: 0;
-    padding: 0;
-    background-image: url(http://i.imgur.com/k8x3BtG.png);
-    background-repeat: no-repeat;
-    width: 28%;
-    height: 30vh;
-    float: right;
-}
+/*.owl_upsidedown{*/
+/*    margin: 0;*/
+/*    padding: 0;*/
+/*    background-image: url(http://i.imgur.com/k8x3BtG.png);*/
+/*    background-repeat: no-repeat;*/
+/*    background-origin: content-box;*/
+
+/*    background-size: contain;*/
+/*    width: 28%;*/
+/*    height: 32vh;*/
+/*    float: right;*/
+   
+/*}*/
 .tweeks{
     padding-top: 20px;
     width: 90%;
@@ -1457,25 +1495,26 @@ u{
 }
 
 .cohort_main_crud{
-    width: 80%;
+    width: 70%;
     padding: 0;
     margin: auto;
-    padding-top: 20px;
+    /*padding-top: 20px;*/
     background-color: #fff;
+    float: left;
 }
 .cohort_top{
     width: 100%;
-    font-size: 15px;
+    font-size: 16.5px;
     text-align: left;
     background-color: #fff;
-    
-    
+    line-height: 1.8;
+    font-family: "lato", sans-serif;
 }
 .cohort_question{
     text-align: center;
-    font-family: monospace;
-    font-size: 26px;
-    letter-spacing: -3px;
+    font-family: "lato", sans-serif;
+    font-size: 20px;
+    letter-spacing: -1px;
 }
 ol{
     display: block;
@@ -1547,24 +1586,13 @@ ol{
     background-color: #fff;
     height: 865px;
 }
-
-/*
-input[]:checked ~ .class2 {
-   display: none;
-
-}
-*/
-
-
 #cohort_data:checked~.group_bar{
     display: block;
-    
 }
-
 #cohort_data{
     display:none ;
 }
-
+/*wordpress css for dropdown members*/
 .photos_cohort{
     width:200px;
 }
@@ -1576,12 +1604,10 @@ input[]:checked ~ .class2 {
     padding: 15px;
     float: left;
 }
-
 .name_crud{
     font-size: 12px;
     line-height: -1;
 }
-
 .story{
     font-size: 14px;
     text-align: left;
@@ -1607,16 +1633,78 @@ input[]:checked ~ .class2 {
 #cohort_data2{
     display:none ;
 }
-@media only screen and (max-width:1250px){
-    .group_bar{
-        
-    }
+.cohort_label{
+    display: none;
+}
+@media only screen and (max-width:1221px){
+  .cohort_nav{
+      width: 75%;
+  }
     .class2{
        height: auto; 
     }
-}
-@media only screen and (max-width:900px){
     
+}
+
+@media only screen and (max-width:1100px){
+   .cohort_header{
+       width:77%;
+   }
+}
+@media only screen and (max-width:1000px){
+     
+    .cohort_nav{
+        display: block;
+    }
+    .flex_li_cohort{}
+}
+
+@media only screen and (max-width:900px){
+   .cohort_header{
+       width: 100%;
+   }
+   .cohort_logo{
+       max-width: 120px;
+   }
+  .cohort_label{
+        font-size: 24px;
+        float: right;
+        padding:5px;
+        border: solid lightgrey 1px;
+        border-radius: 5px;
+        position: relative;
+        margin-top: 5px;
+        display:block;
+   }
+   .cohort_flex_ul{
+       width: 100%;
+   }
+   
+    .class2_crud{
+        width:100%;
+        
+    }
+    .photos_cohort{
+        width: 80%;
+    }
+    .small_img_cohort{
+        width: 80%;
+    }
+    .name_crud{
+        width: 80%;
+        margin:auto;
+        text-align: center;
+    
+    }
+    .story{
+        width:80%;
+        margin:auto;
+        text-align: center;
+        
+    }
+     .group_bar{
+        height: 275rem;
+    }
 }
 @media only screen and (max-width:73rem){
     .cohort_head{
@@ -1647,7 +1735,7 @@ input[]:checked ~ .class2 {
         padding: 5px
     }
     .group_bar{
-        height: 435rem;
+        /*height: 275rem;*/
     }
 }
 @media only screen and (max-width:50rem){
@@ -1665,11 +1753,11 @@ input[]:checked ~ .class2 {
         padding-right:10px; 
     }
     .group_bar{
-        height: 320rem;
+        /*height: 320rem;*/
     }
-    .cohort_top{
-        position: relative;
-        top: -25px;
+    .cohort_top
+    .story{
+        font-size: 12px;
     }
 }
 @media only screen and (max-width:30rem){
@@ -1684,7 +1772,7 @@ input[]:checked ~ .class2 {
     }
     
     .group_bar{
-        height: 330rem;
+        /*height: 330rem;*/
        
     }
 }

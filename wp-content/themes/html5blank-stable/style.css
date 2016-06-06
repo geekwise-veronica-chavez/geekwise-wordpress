@@ -1495,7 +1495,7 @@ u{
 }
 
 .cohort_main_crud{
-    width: 70%;
+    width: 100%;
     padding: 0;
     margin: auto;
     /*padding-top: 20px;*/
@@ -1503,18 +1503,19 @@ u{
     float: left;
 }
 .cohort_top{
-    width: 100%;
+    width: 70%;
     font-size: 16.5px;
     text-align: left;
     background-color: #fff;
     line-height: 1.8;
     font-family: "lato", sans-serif;
+    margin:auto;
 }
 .cohort_question{
     text-align: center;
-    font-family: "lato", sans-serif;
+    font-family: "lato";
     font-size: 20px;
-    letter-spacing: -1px;
+    letter-spacing: -2px;
 }
 ol{
     display: block;
@@ -1538,6 +1539,7 @@ ol{
     height:auto;
     background-color: #7a1501;
     display: block;
+    float:left;
     
 }
 #members_text{
@@ -1965,13 +1967,16 @@ ol{
 
 .paragraph{
     font-weight: bold;
+    font-family: "lato";
     
 }
 ol{
     font-weight: bold;
+    font-family: "lato";
 }
 .goals{
     font-weight: bold;
+    font-family: "lato";
 }
 .stem_container{
     background-color: #fff;

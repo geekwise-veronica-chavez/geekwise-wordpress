@@ -1149,6 +1149,7 @@ u{
     .work_li{
         padding-right: 112px; 
     }
+    
 }
 @media only screen and (max-width:580px){
     .header_image_workshop{
@@ -1203,6 +1204,8 @@ u{
     float: left;
     margin: auto;
     text-align: center;
+    height: auto;
+
     
 }
 .name{
@@ -1218,7 +1221,16 @@ u{
 .photo_name:hover{
     opacity: 1;
 }
-
+@media only screen and (max-width:900px){
+    .team_wise{
+        height: 300px;
+    }
+}
+@media only screen and (max-width:800px){
+    .team_wise{
+        height:660px;
+    }
+}
 @media only screen and (max-width:50rem){
     .team_geek{
         width: 100%;
@@ -1515,7 +1527,7 @@ u{
     text-align: center;
     font-family: "lato";
     font-size: 20px;
-    letter-spacing: -2px;
+    letter-spacing: -px;
 }
 ol{
     display: block;

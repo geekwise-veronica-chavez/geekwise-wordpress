@@ -12,17 +12,21 @@
       <?php wp_head(); ?>
     </head>
  <body class="course-page">
-
+    <div class="top_signin">
+        <li class="yellow_sign top_li">
+                     <a href="/index.php?page_id=12" class="course_sign">signup</a>
+        </li>
+    </div>
     <label for="dropdown" class="label_main">
     <i class="fa fa-bars"></i>  
         </label>
         
      <header class="team_header">
-   
-             <nav class="flex">
-                     <a href="/index.php?page_id=6">
+       <li class="geek_img"><a href="/index.php?page_id=6">
                <img src="http://i.imgur.com/njOmOON.png" alt="geekwise sm">
-               </a>
+               </a></li>
+             <nav class="flex">
+                 
                 <ul class="main_bar">
                     <input type="checkbox" id="dropdown">
         <div class="nav_main_bar">

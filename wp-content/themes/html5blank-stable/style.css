@@ -577,6 +577,11 @@ hr{
 .signup-home:hover{
       background-color: #f9da0c;
 }
+/*team, workshop and other top sign in tab*/
+.top_signin{
+    display: none;
+}
+
 @media only screen and (max-width:1200px){
     .main_bar{
         width: 80%;
@@ -648,7 +653,18 @@ hr{
     .fa:hover{
        background-color: lightgrey;
     }
-    
+    .top_signin{
+        width: 100%;
+        background-color: #fff;
+        display:block;
+        padding-top: 5px;
+    }
+    .top_li{
+        width: 10%;
+        position:relative;
+        left:280px;
+        
+    }
     footer{
         width: 100%;
         
@@ -666,6 +682,10 @@ hr{
          position: relative;
          top:0;
          left:0;
+    }
+    .top_li{
+        position: relative;
+        left:240px;
     }
 }
 @media only screen and (max-width:730px){
@@ -708,6 +728,13 @@ hr{
     }
     
 }
+@media only screen and (max-width:650px){
+    .top_li{
+        position: relative;
+        left:200px;
+        width:15%;
+    }
+}
 @media only screen and (max-width:520px){
 /*
     header{
@@ -715,7 +742,11 @@ hr{
         
     } 
 */
-  
+  .top_li{
+      position: relative;
+      left:150px;
+      width:18%;
+  }
     .highlight{
         padding: 5px;
         font-size: 15px;
@@ -729,7 +760,14 @@ hr{
         
     }
 }
-
+@media only screen and (max-width:440px){
+   .top_li{
+       width: 25%;
+      position: relative;
+      left:100px;
+    }
+    
+}
 @media only screen and (min-width:120px)(max-width:320px){
     
     header{
@@ -1126,6 +1164,17 @@ u{
     position: relative;
     left: 120px;
 }
+/*workshop crud */
+ .main_workshop_crud{
+     background-color: #fff;
+     text-align: left;
+    
+ }
+ .work_sec_crud{
+     width: 70%;
+     margin:auto;
+     padding:0;
+ }
 @media only screen and (max-width:1100px){
   .header_image_workshop{
      position: relative;
@@ -1150,6 +1199,11 @@ u{
         padding-right: 112px; 
     }
     
+}
+@media only screen and (max-width:730px){
+    .work_sec_crud{
+        width: 100% !important;
+    }
 }
 @media only screen and (max-width:580px){
     .header_image_workshop{
@@ -1186,13 +1240,15 @@ u{
     font-weight: bold;
 }
 .team_text{
-    font-size: 20px;
+    font-size: 1.6em;
     color: #fff;
-    width: 60%;
+    width: 70%;
     margin: auto;
     text-align: center;
-    font-family: monospace;
-    padding-top: 25px;
+    font-family:"lato" sans-serif;
+    padding-top: 45px;
+    font-weight:normal;
+    line-height: 1;
 }
 .team_wise{
     width: 80%;
@@ -1221,19 +1277,49 @@ u{
 .photo_name:hover{
     opacity: 1;
 }
+.geek_img{
+    width: 150px;
+    float:left;
+    position:relative;
+    left:220px;
+}
+@media only screen and (max-width:1150px){
+    .geek_img{
+        position: relative;
+        left:190px;
+    }
+}
+@media only screen and (max-width:1030px){
+    .geek_img{
+        position:relative;
+        left:120px;
+    }
+}
 @media only screen and (max-width:900px){
     .team_wise{
         height: 300px;
     }
+    
 }
 @media only screen and (max-width:800px){
     .team_wise{
         height:660px;
     }
+    .geek_img{
+        position: relative;
+        left: 50px;
+    }
+    .team_text{
+        width: 100%;
+    }
 }
 @media only screen and (max-width:50rem){
     .team_geek{
         width: 100%;
+    }
+    .geek_img{
+        position: relative;
+        left: 0;
     }
     
 }
@@ -1265,17 +1351,21 @@ u{
    
 }
 #address{
-    letter-spacing: 1px;
+   
     line-height: 1.5;
     margin: auto;
-    font-family: fantasy;
+    font-family: "franchise";
+    font-weight: bold;
+    letter-spacing: -1px;
+    text-transform: uppercase;
 }
 #terry{
-    padding-top: 15px;
+    /*padding-top: 5px;*/
     color: #7a1501;
     text-decoration: none;
-    font-size: 12px;
-    font-weight: 600;
+    font-size: 19px;
+    font-weight: bold;
+    font-family: "ciria";
 }
 .work{
     padding: 15px;
@@ -1810,6 +1900,7 @@ ol{
     padding: 0;
     transform: translateX(50px)
 }
+
 #team_jake{
     width: 50%;
     height: auto;
@@ -1946,17 +2037,7 @@ ol{
    
    
 }
- /*workshop crud */
- .main_workshop_crud{
-     background-color: #fff;
-     text-align: left;
-    
- }
- .work_sec_crud{
-     width: 70%;
-     margin:auto;
-     padding:0;
- }
+ 
  
  /*team crud page */
  
@@ -2018,6 +2099,11 @@ ol{
      
     
     
+}
+@media only screen and (max-width:730px){
+    .stem{
+        width:100%;
+    }
 }
 .stem_click{
     color: #F9DA0C;

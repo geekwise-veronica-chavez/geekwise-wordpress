@@ -7,6 +7,7 @@
         <meta content="text/html"/>
         <link rel="icon" type="image/png" href="http://geekwiseacademy.com/img/geekwise-favicon.png">
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+        <link href='http://fonts.googleapis.com/css?family=Lato&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
         <link rel="stylesheet" type="text/css" href="fonts/"/>
         <link rel="stylesheet" type="text/css" href="css/style.css"/>
       <?php wp_head(); ?>

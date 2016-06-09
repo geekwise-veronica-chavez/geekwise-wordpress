@@ -1231,27 +1231,29 @@ u{
     width:80%;
 }
 #team{
-    font-size: 48px;
+    font-size: 52px;
     text-transform: uppercase;
     margin: auto;
     text-align: center;
     padding-top: 50px;
-    font-family: monospace;
+    padding-bottom: 50px;
+    font-family: "franchise" !important;
     font-weight: bold;
+    letter-spacing: -1px;
 }
 .team_text{
-    font-size: 1.6em;
+    font-size: 21px;
     color: #fff;
-    width: 70%;
+    width: 60%;
     margin: auto;
     text-align: center;
-    font-family:"lato" sans-serif;
+    /*font-family:"Lato" !important;*/
     padding-top: 45px;
     font-weight:normal;
-    line-height: 1;
+    line-height: 1.2;
 }
 .team_wise{
-    width: 80%;
+    width: 70%;
     margin: auto;
     padding-top: 25px;
 }
@@ -1299,7 +1301,9 @@ u{
     .team_wise{
         height: 300px;
     }
-    
+    .team_text{
+        width:90%;
+    }
 }
 @media only screen and (max-width:800px){
     .team_wise{

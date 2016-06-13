@@ -186,7 +186,7 @@ h1{
     }
     .about_header{
         height: auto;
-        width: 80%;
+        width: 100%;
     }
     .nav_about{
         height: auto;
@@ -240,7 +240,7 @@ h1{
         font-size: 24px;
         float: right;
         padding:10px;
-        border: solid lightgrey 1px;
+        /*border: solid lightgrey 1px;*/
         border-radius: 5px;
         position: relative;
         margin-top: 5px;
@@ -341,8 +341,8 @@ h1{
     
     .highlight-home{
         position: relative;
-        top: -240px;
-        left: 280px;
+        top: -10px;
+        left: 0px;
     }
     #about{
         width: 100%;

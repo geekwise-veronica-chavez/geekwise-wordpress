@@ -32,9 +32,9 @@
                  <li class="li">
                      <a href="/index.php?page_id=8" class="main_team_crud">course</a>
                  </li>
-                 <li class="li">
-                     <a href="/index.php?page_id=16" class="main_team_crud">workshops</a>
-                 </li>
+                 <!--<li class="li">-->
+                 <!--    <a href="/index.php?page_id=16" class="main_team_crud">workshops</a>-->
+                 <!--</li>-->
                  <li class="li">
                      <a href="/index.php?page_id=10" class="main_team_crud">cohort</a>
                  </li>

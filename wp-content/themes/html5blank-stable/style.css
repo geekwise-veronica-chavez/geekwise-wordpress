@@ -481,7 +481,7 @@ main{
     margin: 0;
 }
 .home-text2{
-    font-size:40px;
+    font-size:42px;
     font-family: "ciria";
     margin:0;
 }
@@ -509,18 +509,19 @@ hr{
 }
 .icons{
     width: 30%;
-    max-width: 30%;
+    /*max-width: 30%;*/
     float:left;
     margin-top:25px;
     margin:auto;
-    padding: 10px;
+    /*padding: 10px;*/
     text-align: center;
+    margin-left: 25px;
     
 }
 .width_footer{
     width:85%;
     margin:auto;
-    margin-left: 160px;
+    /*margin-left: 160px;*/
 
     
 }
@@ -905,14 +906,18 @@ hr{
     background-color: #f9da0c;
     color: #7a1501;
 }
+.top_bg_course{
+    background-color:#7a1501; 
+    height: 95px;
+}
 .course_quote{
     margin: auto;
     width: 70%;
     height: auto;
     color: #fff;
     font-size: 12.5px;
-    float: left;
-    margin-left: 66px;
+    /*float: left;*/
+    /*margin-left: 66px;*/
     margin-top:55px;
     font-weight:600;
     font-family:"franchise", sans-serif;
@@ -1014,6 +1019,8 @@ u{
 .enroll{
     padding-bottom: 28px;
 }
+
+
 /*media query begin for course page*/
 @media only screen and (max-width:1180px){
     
@@ -1066,14 +1073,28 @@ u{
    .topic_crud{
        width: 100%;
    }
-    .top_table{
-        display: none;
-    }
+    
     .media_780{
         width: 100%;
     }
+    
+    .course_quote{
+        /*display:none;*/
+        color:#7a1501;
+    }
+    /*.bottom_crud{*/
+    /*    width:100%;*/
+    /*}*/
+    .footer_crud{
+        width:100%;
+    }
+}
+@media only screen and (max-width:600px){
+    .top_table{
+        display: none;
+    }
     .topic{
-        width: 100%;
+        width: 100% !important;
     }
     .duration{
         width:100%;
@@ -1087,23 +1108,22 @@ u{
     .enroll{
         width: 100%;
     }
-    .course_quote{
-        display:none;
-    }
-    /*.bottom_crud{*/
-    /*    width:100%;*/
-    /*}*/
-    .footer_crud{
-        width:100%;
-    }
 }
-
 @media only screen and (max-width:400px){
     .left-margin{
-        margin-right:80px;
+        margin-right: 71.3px;
+        padding-right: 24px;
     }
     .header_image_contact{
         width:120px;
+    }
+}
+@media only screen and (max-width:360px){
+    .left-margin{
+            margin-right: 46.3px;
+    padding-right: 25px;
+    text-align: left;
+    margin-left: 73px;
     }
 }
 /*@media only screen and (max-width:381px){*/
@@ -1285,6 +1305,11 @@ u{
     position:relative;
     left:220px;
 }
+/*geekwise logo on course page*/
+.course_img_logo{
+    top:-12px;
+    left:140px;
+}
 @media only screen and (max-width:1150px){
     .geek_img{
         position: relative;
@@ -1303,6 +1328,10 @@ u{
     }
     .team_text{
         width:90%;
+    }
+    .course_img_logo{
+        top:-65px;
+        left: 0;
     }
 }
 @media only screen and (max-width:800px){
@@ -1462,35 +1491,37 @@ u{
    
 }
 .sign_tab{
-    padding: 15px;
+    padding: 18px;
     text-decoration: none;
     position: relative;
     bottom: -2px;
 }
 .sign_middle{
-    width: 35rem;
+    width: 34rem;
     background-color: #fff;
     margin: auto;
     font-size: 14px;
     text-align: left;
-    padding: 15px;
+    padding: 10px 30px 10px 30px;
     margin-top: -20px
 }
 .sign_top{
     text-transform: uppercase;
     font-weight: bold;
-    font-size: 30px;
+    font-size: 38px;
     text-align: center;
     padding: 15px;
-    margin: 25px;
-    font-family: monospace;
-    letter-spacing: -2px;
+    /*margin: 25px;*/
+    font-family: "franchise";
+    line-height: 1;
+    /*letter-spacing: -2px;*/
 }
 .date_start{
     color: black;
     text-decoration: none;
     font-size: 24px;
     text-align: left;
+    font-family: "ciria";
 
     
 }
@@ -2103,6 +2134,11 @@ ol{
      
     
     
+}
+@media only screen and (max-width:900px){
+    .stem {
+        width:80%;
+    }
 }
 @media only screen and (max-width:730px){
     .stem{

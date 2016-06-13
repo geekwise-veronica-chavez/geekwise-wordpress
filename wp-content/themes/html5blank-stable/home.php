@@ -18,6 +18,35 @@
              <!--<hr>-->
         </div>
      </main>
+     <!-- <footer class="icon_footer">-->
+     <!--  <div class="width_footer">-->
+     <!--       <div class="icons">-->
+     <!--               <a href="indexcourse.html" class="bottom_link">-->
+     <!--               <img src="http://i.imgur.com/PBj2Oyg.png" alt="learn" id="learn"/>-->
+     <!--            <div class="media">learn more</div>-->
+     <!--               </a>-->
+     <!--       </div>-->
+     <!--       </div>-->
+            
+     <!--     <div class="width_footer">-->
+     <!--          <div class="icons">-->
+     <!--             <a href="indexsignin.html" class="bottom_link">-->
+     <!--               <img src="http://i.imgur.com/9p5MVtW.png" alt="sign" id="sign"/>-->
+     <!--               <div class="media">sign up</div>-->
+     <!--             </a>-->
+     <!--           </div>-->
+     <!--   </div>-->
+     <!--    <div class="vertical-line"></div>-->
+     <!--    <div class="width_footer">-->
+     <!--       <div class="icons">-->
+     <!--           <a href="indexabout.html" class="bottom_link">-->
+     <!--           <img src="http://i.imgur.com/U05muFi.png" alt="why" id="why"/> -->
+     <!--        <div class="media">why geekwise&#63;-->
+     <!--        </div>-->
+     <!--            </a>-->
+     <!--            </div>-->
+     <!--   </div> -->
+     <!--</footer>-->
      <footer class='icon_footer'>
       <div class="width_footer">
        <?php query_posts('post_type=geekwise_home'); ?>

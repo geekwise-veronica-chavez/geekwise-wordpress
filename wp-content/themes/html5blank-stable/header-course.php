@@ -28,19 +28,28 @@
 	</head>
 	<body class="course-page">
 
-    <label for="dropdown" class="label_main course_ham">
-    <i class="fa fa-bars"></i>  
-        </label>
+   
         
    
      <header class="red-bg">
-     
+       <div class="top_signin top_bg_course">
+            <li class="yellow_sign top_li">
+                  <a href="/index.php?page_id=12" class="course_sign">signup</a>
+             </li>
+       <label for="dropdown" class="label_main course_ham">
+    <i class="fa fa-bars"></i>  
+        </label>
+       </div>
+        
+        <nav class="flex2">
+           <li class="geek_img course_img_logo"><a href="/index.php?page_id=6">
+               <img src="http://i.imgur.com/njOmOON.png" alt="geekwise sm">
+               </a>
+            </li>  
        <input type="checkbox" id="dropdown">
         <div class="nav_main_bar course_nav">
-             <nav class="flex2">
-                    <a href="/index.php?page_id=6">
-               <img src="http://i.imgur.com/njOmOON.png" alt="geekwise sm" class="header_image_contact">
-               </a>  
+            
+                    
                 <ul class="course_ul">
                 
                  <li class="li">
@@ -49,9 +58,9 @@
                  <li class="li">
                      <a href="/index.php?page_id=8" class=" yellow">course</a>
                  </li>
-                 <li class="li">
-                     <a href="/index.php?page_id=16" class="course_li">workshops</a>
-                 </li>
+                 <!--<li class="li">-->
+                 <!--    <a href="/index.php?page_id=16" class="course_li">workshops</a>-->
+                 <!--</li>-->
                  <li class="li">
                      <a href="/index.php?page_id=10" class="course_li">cohort</a>
                  </li>

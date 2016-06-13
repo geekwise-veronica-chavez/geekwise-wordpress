@@ -50,9 +50,9 @@
                  <li class="nav_bar_li">
                      <a href="/index.php?page_id=8" class="home_li">course</a>
                  </li>
-                 <li class="nav_bar_li">
-                     <a href="/index.php?page_id=16" class="home_li">workshops</a>
-                 </li>
+                 <!--<li class="nav_bar_li">-->
+                 <!--    <a href="/index.php?page_id=16" class="home_li">workshops</a>-->
+                 <!--</li>-->
                  <li class="nav_bar_li">
                      <a href="/index.php?page_id=10" class="home_li">cohort</a>
                  </li>

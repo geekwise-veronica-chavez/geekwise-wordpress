@@ -1,5 +1,8 @@
 <?php /* Template Name: cohort */ ?>
+<link href='http://fonts.googleapis.com/css?family=Lato&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
+
 <?php get_header('cohort'); ?>
+
  <main class="cohort_main_crud">
   
            

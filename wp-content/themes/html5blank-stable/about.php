@@ -40,8 +40,16 @@
              
                 
                <?php endwhile; ?>
-               
-               <div class="about_what" id="about">
+                <div class="about_what  margin_about_top" id="about">
+                    <h1>WHY</h1>
+                   <p class="about">We need more geeks. Lots of them. And good ones. It’s no secret that software 
+                   and information technology are among the fastest growing industries on the planet. Despite that 
+                   truth, there simply aren’t enough technologists to keep up with the demand. Not to mention that 
+                   these industries offer promising careers and have mountains of jobs that are available today. 
+                   Geekwise Academy exists to fill that demand by rapidly producing high quality technologists, 
+                   and then connecting those same technologists to real world opportunities</p>
+                   </div>
+               <div class="about_what margin_detail" id="about">
                    <h1>DETAILS</h1>
                <p class="about"> 
                     <p><u> Length:</u>Each course lasts 6 weeks</p>

@@ -1540,6 +1540,7 @@ u{
 /*crud wp sign in*/
 .white_sign{
     background-color: #fff;
+  
 }
 .course_li_sign{
     color:black;
@@ -1547,11 +1548,13 @@ u{
 /*cohort css page*/
 .white_cohort{
     background-color: #fff;
+    
 }
 .cohort_header{
     width: 70%;
     margin:auto;
-    height:100px; 
+    height:auto; 
+    padding-bottom: 50px;
     
 }
 .last_page{
@@ -1657,8 +1660,8 @@ u{
 }
 .cohort_question{
     text-align: center;
-    font-family: "lato";
-    font-size: 20px;
+    font-family: "franchise";
+    font-size: 32px;
     letter-spacing: -px;
 }
 ol{
@@ -1753,6 +1756,7 @@ ol{
 .name_crud{
     font-size: 12px;
     line-height: -1;
+    font-family:sans-serif;
 }
 .story{
     font-size: 14px;
@@ -2102,16 +2106,16 @@ ol{
 
 .paragraph{
     font-weight: bold;
-    font-family: "lato";
+    font-family: "Lato", sans-serif;
     
 }
 ol{
     font-weight: bold;
-    font-family: "lato";
+    font-family: "Lato";
 }
 .goals{
     font-weight: bold;
-    font-family: "lato";
+    font-family: "Lato";
 }
 .stem_container{
     background-color: #fff;

@@ -25,7 +25,7 @@
             </a> 
                 <ul class="main_bar">
                      <input type="checkbox" id="dropdown">
-        <div class="nav_main_bar contact_top">
+        <div class="nav_main_bar contact_li">
                  <li class="li">
                      <a href="/index.php?page_id=7" class="main_team_crud">about</a>
                  </li>

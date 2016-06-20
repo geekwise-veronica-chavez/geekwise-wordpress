@@ -1430,6 +1430,7 @@ u{
     
     
 }
+
 @media only screen and (max-width:50rem){
     .media_query_sign{
         visibility: visible;
@@ -1437,10 +1438,10 @@ u{
         position: relative;
         top: 15px;
     } 
-    .background{
-        width: 
-    }
+   
+    
 }
+
 @media only screen and (max-width:900px){
     
     #geekwise_image_drop{
@@ -1462,6 +1463,11 @@ u{
          font-size: 14px;
          text-align: center;
         text-decoration: none;
+    }
+    .contact_li{
+        margin-top: 55px;
+   
+    padding-right: 135px;
     }
 }
 @media only screen and (max-width:1200px){

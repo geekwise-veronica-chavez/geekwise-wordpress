@@ -1286,6 +1286,9 @@ u{
 
     
 }
+.team_bg{
+        background-color: #7a1501;
+}
 .name{
     font-size: 14px;
     color: black;
